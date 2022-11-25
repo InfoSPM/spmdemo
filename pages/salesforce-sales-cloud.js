@@ -29,7 +29,7 @@ const Services = ({ seo }) => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
-                <p style={{ textAlign: "justify" }}>SPM Spm Global Technologies, the best Salesforce Sales Cloud service providers and Sales Cloud consultant, provides comprehensive managed support services for integration, configuration, and implementation of Salesforce Sales Cloud to help you achieve the best sales success. Our industry-best Sales Cloud support services empower the sales and marketing teams to improve productivity by-
+                <p style={{ textAlign: "justify" }}>SPM Global Technologies, the best Salesforce Sales Cloud service providers and Sales Cloud consultant, provides comprehensive managed support services for integration, configuration, and implementation of Salesforce Sales Cloud to help you achieve the best sales success. Our industry-best Sales Cloud support services empower the sales and marketing teams to improve productivity by-
                 </p>
                 <ul className="overview-list">
                   <li data-aos="fade-up" data-aos-duration="1200">
