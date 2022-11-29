@@ -97,7 +97,7 @@ const Services = ({ seo }) => {
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
                 <h4 className="nunito-font">
-                  BMC Helix ITSM – A Robust Service Management Platforms, Revolutionizing IT
+                  BMC Helix ITSM – A Robust Service Management Platforms, Revolutionizing IT 
                 </h4>
                 <p className="w-100" style={{ textAlign: "justify" }}>
                   ITSM (IT Service Management) embraces all activities (like policies, processes, etc.) that an enterprise performs for effective designing, planning, delivery, operation, maintenance, and control of IT service.

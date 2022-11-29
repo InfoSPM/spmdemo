@@ -87,7 +87,7 @@ const Services = () => {
                 </div>
                 <h5 className="nunito-font">
                   <Link href="/power-bi">
-                    <a>Powerbi</a>
+                    <a>PowerBi</a>
                   </Link>
                 </h5>
                 <p>
