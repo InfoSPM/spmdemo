@@ -135,7 +135,7 @@ const Services = ({ seo }) => {
                 <ul className="overview-list">
                   <li data-aos="fade-up" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    ncreased opportunities (Specifically designed for salespeople)
+                    Increased opportunities (Specifically designed for salespeople)
                   </li>
                   <li
                     data-aos="fade-up"
@@ -195,7 +195,7 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="importance of outsourcing sales cloud support services and benefits.png" data={seo} />
               </div>
             </div>
           </div>
