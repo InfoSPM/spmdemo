@@ -195,7 +195,7 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-              <MediaImage name="importance of outsourcing sales cloud support services and benefits.png" data={seo} />
+                <Image src={dummyimg} alt="" />
               </div>
             </div>
           </div>
