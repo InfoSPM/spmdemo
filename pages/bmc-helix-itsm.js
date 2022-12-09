@@ -422,16 +422,16 @@ const Services = ({ seo }) => {
   );
 };
 export async function getStaticProps({ params }) {
-  console.log(params);
-  call an external API endpoint to get products.
-  You can use any data fetching library
+  // console.log(params);
+  // call an external API endpoint to get products.
+  // You can use any data fetching library
   const res = await fetch(
     `${baseApiUrl}/api/pages?filters[slug][$eq]=bmc-helix-itsm&populate=*`
   );
   const seo = await res.json();
 
-   By returning { props: { blog } }, the Blog component
-   will receive `blog` as a prop at build time
+  //  By returning { props: { blog } }, the Blog component
+  //  will receive `blog` as a prop at build time
   return {
     props: {
       seo,
