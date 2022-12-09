@@ -29,7 +29,8 @@ const Services = ({ seo }) => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
-                <p style={{ textAlign: "justify" }}>SPM Global Technologies, the best Salesforce Sales Cloud service providers and Sales Cloud consultant, provides comprehensive managed support services for integration, configuration, and implementation of Salesforce Sales Cloud to help you achieve the best sales success. Our industry-best Sales Cloud support services empower the sales and marketing teams to improve productivity by-
+                <p style={{ textAlign: "justify" }}>SPM Global Technologies, <a href="
+https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service providers and Sales Cloud consultant, provides comprehensive managed support services for integration, configuration, and implementation of Salesforce Sales Cloud to help you achieve the best sales success. Our industry-best Sales Cloud support services empower the sales and marketing teams to improve productivity by-
                 </p>
                 <ul className="overview-list">
                   <li data-aos="fade-up" data-aos-duration="1200">
@@ -195,7 +196,7 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="goal2.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -604,7 +605,7 @@ export async function getStaticProps({ params }) {
   // Call an external API endpoint to get products.
   // You can use any data fetching library
   const res = await fetch(
-    `${baseApiUrl}/api/pages?filters[slug][$eq]=bmc-helix-itsm&populate=*`
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=salesforce-sales-cloud&populate=*`
   );
   const seo = await res.json();
 
