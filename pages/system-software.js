@@ -89,18 +89,22 @@ const Services = () => {
         subTitle=""
         title="System & Software" />
 
-      {/* <div className="goal-area ptb-100">
+      <div className="goal-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
                 <h4 className="nunito-font">
-                  BMC Helix ITSM – A Robust Service Management Platforms, Revolutionizing IT
+                Our Wide-Ranging System & Software Service Portfolio 
                 </h4>
+                
+                <h5><center>DevOps</center></h5>
                 <p className="w-100" style={{ textAlign: "justify" }}>
-                  ITSM (IT Service Management) embraces all activities (like policies, processes, etc.) that an enterprise performs for effective designing, planning, delivery, operation, maintenance, and control of IT service.
+                Our well-designed integrated solutions and DevOps managed services help your businesses reduce manual intervention, and manual errors, and automate workflow, release cycles, and service virtualisation to achieve greater scalability. 
+
+We make deploying your workloads easy with DevOps agility. Our DevOps experts perform coding in hours to accelerate your business processes, development workflow, and IT frameworks. We help you deliver your excellent software solutions faster. 
                 </p>
-                <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM constitutes to be a robust, service management platform, empowering the IT revolution. The intelligent automation and people-centric capability of this software solution, facilitate smart working in the modern agile business. BMC Helix Managed Services are delivered in the cloud along with hybrid or on-premise opportunities.</p>
+                <p className="w-100" style={{ textAlign: "justify" }}>We help you make effective DevOps use in application development to align with the evolving IT and software delivery arena. We help you adopt the DevOps culture for a faster time to market. Please work with us to adopt DevOps solutions to enhance DevOps use in the Infrastructure process, and accelerate ideation to delivery of software solutions and apps to stay competitive. </p>
               </div>
             </div>
             <div
@@ -131,29 +135,56 @@ const Services = () => {
             <div className="col-lg-6 col-md-12">
               <div className="goal-content">
                 <h4 className="nunito-font">
-                  BMC Helix ITSM Scenario supporting the development of BMC Helix ITSM
+                <center>Embedded Services</center>
                 </h4>
-                <span className="sub-title">BMC Helix Implementation</span>
-                <p className="w-100" style={{ textAlign: "justify" }}>Currently, BMC Helix Managed Services are driven by human and is extremely resource-intensive. Many of the ITSM processes and systems are manual, incorrect, and slow, leading to greater costs and lower productivity. Several BMC Helix Vendors are helping companies to migrate their workloads to the cloud platform for spending less time on upgrades. Helix ITSM Consultants also obtain the flexibility to add power on demand.
+                {/* <span className="sub-title">BMC Helix Implementation</span> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>We offer the latest technology in embedded platform development, including FPGA, ASIC, and DSPs. We are the one-stop solution for all your mechanical, PCB, software, and hardware requirements. 
                 </p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Entrepreneurs expect easy and successful migration in reduced time. They want to curtail costs but need the power to scale elastically. Service Management is getting disrupted by technologies like artificial intelligence (AI), Machine learning (ML), virtual agents, chatbots, and the Internet of Things (IoT).  These techniques are driving changes in the way, enterprises are providing services in the future. Veteran business leaders are seeking BMC Helix Support Services to resolve real-time business challenges and get an edge over their competitors.</p>
+                <p className="w-100" style={{ textAlign: "justify" }}>Our embedded software and integration meet hardware and help you harness the latest embedded technology in any smart device</p>
+                
+                  <li>We help you adopt rapid changes in technology. We provide embedded engineering services to suit your needs and business goals. </li>
+                  <br></br>
+                  <li>We define the architecture or firmware, design, and implement embedded solutions for Linux-based devices and other platforms. </li>
+                  <br></br>
+                <li>We design automatic parameter monitoring systems for various vehicles by developing middleware and integrating 3rd party applications. </li>
+                <br></br>
+                <li>We ensure that Linux distributions are effectively embedded with the IoT software irrespective of the hardware you use. </li>
+                <br></br>
+                <li>We ensure the best Return on Investment through extensive embedding and testing of solutions developed for you. </li>
+                <br></br>
+                <li>Our designers create high-performing, efficient, and reliable IoT devices by adopting the System-on-Model approach. </li>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
 
       <div className="goal-area ptb-100 br-bottom-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12 col-md-12">
               <div className="goal-text">
+              <h2><center>Data Engineering </center></h2>
+              <p>We leverage the latest Data Engineering Technology for data mining, reconditioning, and more to help you establish your new businesses, draw winning strategies, and expand your business in new territories.  </p>
+              <p>We enable data-driven decisions and approach to scale your business. Our data engineering service starts with drawing data engineering roadmaps to resolve your unique business problems. We help you obtain data-driven insights for business establishment, planning, and entering into new market territories for expansion. </p>
+              <li>We monitor your operations to debug issues by adopting real-time preventive measures. We provide actionable, data-driven insights to grow your business by leveraging the latest technology, like machine learning algorithms and R programming language. </li>
+              <br></br>
+              <li>We help you collect data, and inspect it by combining it with complementary information to get actionable insights. </li>
+              <br></br>
+              <li>We enhance the supply chain of your asset management by streamlining data flow to various connected devices. </li>
+              <br></br>
+              <li>We leverage the latest networks like GoogleNET and ResNET to enable AI-driven machine vision services, such as image classification, super-resolution, and segmentation. </li>
+              <br></br>
+              <br></br>
+              <h3>Our Approach to System & Software Services </h3>
 
                 <ul className="overview-list">
                   <li data-aos="fade-up" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Is BMC Helix ITSM cloud-based?</h3>
-                    <p className="w-100" style={{ textAlign: "justify" }}>Built for the cloud, the reimagined BMC Helix Support Services and operation experience remains unparalleled. This provides you with an omnichannel experience through Slack, Skype, Chatbot, and more. Automation is possible with the help of conversational bots and RPA (Robotic Process Automation) bots, that help to automate digital tasks.
+                    
+                    <h4>Analyse </h4>
+                    <p className="w-100" style={{ textAlign: "justify" }}>We examine the trends, patterns, and criteria through a micro-view of your enterprise objectives, processes, and more. 
                     </p>
                   </li>
                   <li
@@ -162,27 +193,30 @@ const Services = () => {
                     data-aos-delay="200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>BMC Helix ITSM or NextGen Remedy:</h3>
+                    <h3>Build </h3>
                     <p className="w-100" style={{ textAlign: "justify" }}>
-                      BMC Helix cloud technology has mobile accessibility. As a result of which, everything remains in the BMC family. Previously called “BMC Remedy”, it facilitated service management in IT companies. IT professionals could easily manage internal issues, with BMC Remedy. It is now updated to work within the Helix technology and it can be hosted on the cloud.
+                    We adopt agility to develop excellent solutions. We work per a well-thought product roadmap and assess the progress at every stage to ensure the best quality and timely release.
                     </p>
                   </li>
                   <li data-aos="fade-up" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>How to use Helix BMC?</h3>
+                    <h3>Implement </h3>
                     <p className="w-100" style={{ textAlign: "justify" }}>
-                      BMC Helix Managed Services enable non-coders to co-create. You can seek BMC Helix Trainings for using Helix BMC in the following way:
-                      Configuring enterprise applications through visual drag-and-drop design tools.
-                      Using drag-and-drop connectors, with integration service for communicating with top third-party services as well as core systems.
+                    We play our role in helping clients achieve their business goals by implementing software solutions across various domains and technologies.  
 
                     </p>
                   </li>
                 </ul>
+                <br></br>
+                <br></br>
               </div>
             </div>
 
             <div className="col-lg-12 col-md-12">
               <div className="goal-text">
+                <h5>Why Choose SPM Global Technologies </h5>
+                <p>We create excellent engineering experiences by applying rich code.</p>
+                
 
                 <ul className="overview-list">
                   <li
@@ -191,9 +225,9 @@ const Services = () => {
                     data-aos-delay="100"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>What is the Helix tool?</h3>
+                    <h3>Fabulous Tech Workforce </h3>
                     <p className="w-100" style={{ textAlign: "justify" }}>
-                      Helix comprises an incident response and computer forensics toolkit, based on standard Knoppix Live bootable CD. It contains several tools for an incident response on Linux systems and Windows
+                    We engage the most talented and experienced software professionals to execute every project to make your business idea or requirement a reality. We cover every stage of micro-management from ideation to release and support for the high-performing solutions being a top core system & software company. 
                     </p>
                   </li>
                   <li
@@ -202,9 +236,9 @@ const Services = () => {
                     data-aos-delay="200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>What is BMC Helix Discovery?</h3>
+                    <h3>Excellent Journey Assured </h3>
                     <p className="w-100" style={{ textAlign: "justify" }}>
-                      BMC Helix Discovery constitutes a data center discovery solution. This helps to automatically determine data center inventory, configuration, and relationship data, by mapping applications to IT infrastructure. You can manage IT and leverage data for enhancing IT process and productivity, by eliminating guesswork with data-driven decision-making.
+                    We provide capability-enhancing engineering services to ensure a reliable and seamless journey. We provide system and software solutions to help you meet your business objectives by keeping engineering at the core of functioning. 
                     </p>
                   </li>
                   <li
@@ -213,8 +247,17 @@ const Services = () => {
                     data-aos-delay="100"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>What is Helix Change Management</h3>
-                    <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix Service Providers allow agile DevOps organizations to maximize their delivery and improve the overall quality of their services. Helix ITSM Consultants ensure governance and compliance to pursue their journey to become an Autonomous Digital Enterprise. BMC Helix is a simplified change request technique through a guided process.</p>
+                    <h3>Great Value Addition </h3>
+                    <p className="w-100" style={{ textAlign: "justify" }}>We ensure service efficiency by adding value to the entire project execution, from ideation, architecture set-up, development, and development of the system and software solutions for you. Our most competitive pricing keeps us ahead of others. </p>
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    data-aos-delay="100"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Faster and Integrated Delivery</h3>
+                    <p className="w-100" style={{ textAlign: "justify" }}>Our coding experts work together to adopt agile culture to deliver your code well in time and free from errors. We follow best practices at every stage, including strategizing, structuring, design, coding, development, to implementation. Our impeccable processes result in the best solutions as per your needs. </p>
                   </li>
                 </ul>
               </div>
@@ -422,7 +465,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <SubscribeStyle1 />
       <FooterOne />
