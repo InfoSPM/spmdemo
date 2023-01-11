@@ -23,11 +23,11 @@ const service1 = () => {
   
   return (
     <>
-      <PageTitle page="Get A Free Trial Service" />
+      <PageTitle page="Service1" />
       <Navbar />
       <PageTopTitle
         subTitle=""
-        title="Get A Free Trial Service" />
+        title="Service1" />
 
      <div className="goal-area ptb-100">
         <div className="container">
