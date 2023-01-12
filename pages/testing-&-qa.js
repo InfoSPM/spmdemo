@@ -24,6 +24,10 @@ import helixdigitalworkplace from "@/public/images/helix-digital-workplace.jpg";
 import Assets from "@/public/images/Assets.jpg"
 import Configuration from "@/public/images/Configuration.jpg";
 
+import dummyimg from "@/public/images/dummy-img.png";
+import dummyicon from "@/public/images/dummy-icon.png";
+
+
 
 {/* ------------------------------Faq Q/A--------------------------------- */ }
 const questionsAnswers = [
@@ -98,8 +102,14 @@ const Services = () => {
                 Empowering You to Meet Quality Parameters & Standards 
                 </h4>
                 <p className="w-100" style={{ textAlign: "justify" }}>
+                SPM Global Technologies Reliable Software Testing & QA Services Partner! We set the most credible QA process to control your product lifecycle for agile, waterfall, or hybrid. Our QA experts strive to enable you to get accurate product quality information by adopting the latest practices and technology in Software Testing & QA. 
+
+                </p>
+                
+                <p className="w-100" style={{ textAlign: "justify" }}>
                   Leverage our  Software Quality Assurance & Testing expertise to draw, monitor, and meet your quality standards for your software solutions and apps. Our QA experts adopt a modern approach for Analytics in Testing Drive Priorities for QA. 
                 </p>
+
                 <p className="w-100" style={{ textAlign: "justify" }}> We accelerate your software testing processes by implementing automated testing methods. Our QA services aim to help you craft excellent software products that your customers will love within the stipulated project schedules.</p>
               </div>
             </div>
@@ -109,7 +119,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={itsm} alt="man-with-son-image" />
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
           </div>
@@ -125,7 +135,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image">
-                <Image src={bmcheliximplementation} alt="" />
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -133,7 +143,7 @@ const Services = () => {
                 <h4 className="nunito-font">
                 Importance of Automated Testing to Ensure Consistent Quality 
                 </h4>
-                {/* <span className="sub-title">BMC Helix Implementation</span> */}
+                
                 <p className="w-100" style={{ textAlign: "justify" }}>Software testing and quality assurance play a critical role in the delivery of software products, applications, e-commerce portals, SaaS solutions, and IoT set-up involving software interacting with hardware components. 
 
 It is crucial to work with Software Quality Assurance & Testing company like ours to have a team of experts on your side. We use the best technology and methods to test your product performance.  
@@ -223,15 +233,7 @@ Our software testing and QA experts don’t let any aspect of your software prod
                   </li>
 
                   <h3><b><i><center>  Share Your Software Testing & QA Requirements with Our Experts Today! </center></i></b></h3>
-                  {/* <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    <h3>What is Helix Change Management</h3>
-                    <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix Service Providers allow agile DevOps organizations to maximize their delivery and improve the overall quality of their services. Helix ITSM Consultants ensure governance and compliance to pursue their journey to become an Autonomous Digital Enterprise. BMC Helix is a simplified change request technique through a guided process.</p>
-                  </li> */}
+                 
                 </ul>
               </div>
             </div>
@@ -259,13 +261,13 @@ Our software testing and QA experts don’t let any aspect of your software prod
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={event} alt="" />
+                <Image src={dummyimg} alt="" />
                 </div>
                 <h5 className="nunito-font">
                   <a>Functional Testing </a>
                 </h5>
                 <p className="w-100" style={{ textAlign: "justify" }}>We configure software components and modules to derive test cases and adopt best testing and QA practices to conduct automated tests. We validate software components for their functional requirements and specifications. We adopt a well-designed testing process to verify if every software component meets the functionality needs. .</p>
-                {/* <p className="w-100" style={{ textAlign: "justify" }}></p> */}
+                
               </div>
             </div>
             <div
@@ -275,14 +277,13 @@ Our software testing and QA experts don’t let any aspect of your software prod
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={dealing} alt="" />
+                <Image src={dummyimg} alt="" />
                 </div>
                 <h5 className="nunito-font">
                   <a>Sanity Testing </a>
                 </h5>
                 <p className="w-100" style={{ textAlign: "justify" }}>Our QA experts quickly test if any claim, calculation result, or produced outcome is rational and correct. The ultimate aim of our sanity testing is to ensure that the altered code works effectively.  .</p>
-                {/* <p className="w-100" style={{ textAlign: "justify" }}>
-                </p> */}
+               
               </div>
             </div>
             <div
@@ -292,13 +293,13 @@ Our software testing and QA experts don’t let any aspect of your software prod
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={change} alt="" />
+                <Image src={dummyimg} alt="" />
                 </div>
                 <h5 className="nunito-font">
                   <a>Regression Testing </a>
                 </h5>
                 <p className="w-100" style={{ textAlign: "justify" }}>After any change to the code, integration, or other mechanisms within your product, we conduct regression testing to ensure the software runs correctly and serves the functional requirements. .</p>
-                {/* <p className="w-100" style={{ textAlign: "justify" }}></p> */}
+                
               </div>
             </div>
             <div
@@ -308,13 +309,13 @@ Our software testing and QA experts don’t let any aspect of your software prod
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={multicloud} alt="" />
+                <Image src={dummyimg} alt="" />
                 </div>
                 <h5 className="nunito-font">
                   <a>Integration Testing </a>
                 </h5>
                 <p className="w-100" style={{ textAlign: "justify" }}>Our Software testing & QA experts conduct appropriate tests on the software components and modules as a group. We follow the best practices to evaluate the compliance of each software component and module with their functional necessities.  </p>
-                {/* <p className="w-100" style={{ textAlign: "justify" }}></p> */}
+                
               </div>
             </div>
             <div
@@ -324,13 +325,13 @@ Our software testing and QA experts don’t let any aspect of your software prod
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={insights} alt="" />
+                <Image src={dummyimg} alt="" />
                 </div>
                 <h5 className="nunito-font">
                   <a>System Testing </a>
                 </h5>
                 <p className="w-100" style={{ textAlign: "justify" }}>We conduct appropriate QA Testing and Software Quality attempts to ensure your complete integrated system works according to the set requirements. The validation of the entire system to comply with the specifications ensure effective interactions between different components for accurate functioning.</p>
-                {/* <p className="w-100" style={{ textAlign: "justify" }}></p> */}
+                
               </div>
             </div>
             <div
@@ -340,7 +341,7 @@ Our software testing and QA experts don’t let any aspect of your software prod
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={Knowledge} alt="" />
+                <Image src={dummyimg} alt="" />
                 </div>
                 <h5 className="nunito-font">
                   <a>User Acceptance Testing </a>
@@ -348,74 +349,11 @@ Our software testing and QA experts don’t let any aspect of your software prod
                 <p className="w-100" style={{ textAlign: "justify" }}>We provide QA & Technical Review Services to conduct user acceptance tests through your end users before the product moves into the production stage. UAT is usually the stage after internal testing before taking the software product to the production environment. 
 
 </p>
-                {/* <p className="w-100" style={{ textAlign: "justify" }}></p> */}
+                
               </div>
             </div>
-            {/* <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="single-services-item style-two">
-                <div className="icon">
-                  <Image src={helixdigitalworkplace} alt="" />
-                </div>
-                <h5 className="nunito-font">
-                  <a>BMC Helix Digital Workplace</a>
-                </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>Contemporary self-service offers spontaneous and intelligent customer experience to enable organizations to step into future work. Intellectual self-service enables employees to fast resolve problems before submitting a request. A cohesive service catalog removes misperception, by presenting services from manifold business units in a single set.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>A customer interface helps employees obtain what they want with a one-stop-shop solution for services. Omni-channel and knowledge management facilitates employees to get the best information, as per their requirements. In addition, easy administration with drag-and-drop allows workflow customization. Furthermore, configuration enhancement enables faster resolution and improved user experience.</p>
-              </div>
-            </div> */}
-            {/* <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="single-services-item style-two">
-                <div className="icon">
-                  <Image src={Assets} alt="" />
-                </div>
-                <h5 className="nunito-font">
-                  <a>Management of Assets</a>
-                </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM also delivers comprehensive lifecycle management of IT assets, from the stage of procurement to the end of the product lifecycle. This helps to track asset devaluation in the due course of time. Moreover, with BMC Helix Trainings, you can ensure compliance, evading audit costs along with software license management.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Further, it identifies contract violations and buying opportunities. You can know exactly about the number of assets, asset locations, and the people using them. Consequently, you can make informed decisions about IT changes. Moreover, you can make use of remote support and automated configuration functionalities for client systems.</p>
-              </div>
-            </div> */}
-            {/* <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="single-services-item style-two">
-                <div className="icon">
-                  <Image src={Configuration} alt="" />
-                </div>
-                <h5 className="nunito-font">
-                  <a>Configuration Management</a>
-                </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>This feature of BMC Helix ITSM supports the ITSM process through a single-source reference for all IT infrastructure and services. Moreover, it helps to enhance the user experience with a contemporary, persona-based User Interface. You can boost efficiency and stability with a single source of reference for all IT infrastructure and services.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Further, it decreases costs through automating tasks that earlier required manual interference. IT managers can reduce risk, through an improved understanding of change dependencies and operate services with strong insights into parameters. This allows smooth integration between support and operational processes.</p>
-              </div>
-            </div> */}
-            {/* <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="single-services-item style-two">
-                <div className="icon">
-                  <Image src={service} alt="" />
-                </div>
-                <h5 className="nunito-font">
-                  <a>Service Request Management</a>
-                </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>The service request management feature of BMC Helix Implementation helps you to describe a catalog of service requests. This reflects the services provided to internal and external clients. You can quickly obtain efficiency in the delivery and IT services support. Self-service solutions of BMC Helix ITSM implementation include incidents, modifications, assets, and work orders.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Further, it offers a centralized catalog of requests like price, service targets, and approval guidelines to mechanize and monitor standard requests. This allows self-help through knowledge access for decreasing the number of calls to the service desk.</p>
-              </div>
-            </div> */}
-            <p className="w-100" style={{ textAlign: "justify" }}><h2>Share Your Software Testing Needs with Us .</h2></p>
+           
+            <p className="w-100" style={{ textAlign: "justify" }}><h2><center>Share Your Software Testing Needs with Us .</center></h2></p>
             <p className="w-100" style={{ textAlign: "justify" }}>If you are looking for a software testing and QA partner to help you craft and deliver the best software solutions, look no further and fill up the following form. Our experts will initiate a discussion with you to understand your requirements in detail. We will let you know what best we can do..</p>
           </div>
         </div>
