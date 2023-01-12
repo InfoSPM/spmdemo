@@ -490,7 +490,7 @@ const Navbar5 = () => {
                                         <Link
                                           href="/testing-&-qa">
                                           <a className="nav-link">
-                                            Testing & QA
+                                            Testing And QA
                                           </a>
                                         </Link>
                                       </li>
