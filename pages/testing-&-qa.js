@@ -1,12 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Accordion from "@/components/Accordion";
+
 import PageTitle from "@/components/Layout/PageTitle";
 import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
 
 
 
@@ -29,69 +32,16 @@ import dummyicon from "@/public/images/dummy-icon.png";
 
 
 
-{/* ------------------------------Faq Q/A--------------------------------- */ }
-const questionsAnswers = [
-  // {
-  //   question: "Q1: What is the benefit of adopting BMC Smart IT?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: BMC Smart IT allows you to create tickets faster. You can create multiple ticket types, such as incidents, work orders, service requests, or change requests with minimal values to fill in. You can use the Smart Record feature to take notes while interacting with your clients. Again, you can collaborate with co-workers effectively through easy and faster integration with various business apps.</p>
-  // },
-  // {
-  //   question: "Q2: Does BMC MyIT allow your team members to tackle service requests independently?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: Yes, BMC MyIT allows you to decentralize your work for small instances. Any team member can tackle a particular service request individually with his or her own device. Thus, multiple service requests can be addressed through various team members at the same time, remotely. This feature improves the reaction time to provide services to your clients and helps you achieve better customer satisfaction.</p>
-  // },
-  // {
-  //   question: "Q3: Is BMC DWP 'people-centric?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: Yes, the solution is people-centric as it is designed to provide consumer-like experiences to the managerial members of your teams. Thus, your workforce can enjoy the flexibility to work on the scheduled task, while your managers can seamlessly govern the working process, the technology being leveraged, and the team members. Work with certified vendors to deploy BMC DWP in a customized manner for seamless coordination.</p>
-  // },
-  // {
-  //   question: "Q4: How is BMC DWPA better than BMC DWP?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: Being the latest version of BMC DWP, the BMC DWPA has some advanced features. BMC DWPA provides better access to your clients so that they can raise service requests to the concerned departments of your organizations such as HR, Support, and so on. This feature adds flexibility to the overall work culture of your organization.</p>
-  // },
-  // {
-  //   question: "Q5: Can I get a single dashboard to accommodate the complete service catalog?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: By implementing BMC Digital Workplace Catalog, you can bring all service requests together to a centralized dashboard. This feature helps you manage various service requests, assign service and support tasks to the concerned team members, and monitor the progress of every service request effectively.</p>
-  // },
-  // {
-  //   question: "Q6: How do BMC Solutions add flexibility to your service operations?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: BMC Solutions are gaining popularity in the ITSM landscape due to the flexibility they offer. Firstly, most BMC Solutions are accessible through various browser-enabled devices. Thus, it is easy to keep control of your team’s activities and monitor the progress of every project from wherever you are. Then comes the intuitive dashboard that helps you effectively communicate, make correct decisions, and create reports.</p>
-  // },
-  // {
-  //   question: "Q7: How can the advanced accessibility of BMC Solutions set you free?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: BMC Solutions are accessible through various browser-enabled devices and are compatible with different operating systems, such as Android, iOS, Windows, and Mac. Thus, you can stay connected with your work through your desktops, laptops, tablet phones, and smartphones from your offices, homes, or wherever you are.</p>
-  // },
-  // {
-  //   question: "Q8: How can you achieve better productivity by switching to BMC Solutions?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>The entire team would be clear about what they are supposed to do. The team also gets real-time insights and can prepare reports in easy-to-understand formats, like graphs, bar charts, and pie charts. As all the crucial matters are brought to a single dashboard, you can strategize your work accordingly. Assigning implementation to BMC Solutions Managed Services experts is crucial here. That improves the individual performance of every team member, and the organization achieves better productivity.</p>
-  // },
-  // {
-  //   question: "Q9: Is it a lengthy and laborious process to implement BMC Solutions for your business?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: No. If you partner with the best asset customization service providers, it takes only a few days to switch to BMC Solutions. Thus, you can get going with the most appreciated ITSM and workflow orchestration tools very soon. Collaborate with an experienced BMC Solutions Consultant to adopt the solutions in a customized manner.</p>
-  // },
-  // {
-  //   question: "Q10: Why choosing the best implementation partner is crucial when switching to BMC Solutions?",
-  //   answer:
-  //     <p className="w-100" style={{ textAlign: "justify" }}>Answer: BMC Solutions implementation requires thorough product expertise and extensive experience developing, customizing, deploying, and servicing the ITSM tools. If you assign this crucial task to any inexperienced firm, your business may be at risk, as you may not be able to track workflow, projects, and customer service requests in time. So, it is always better to join hands with reputed implementation BMC Solutions Service Providers with adequate experience in BMC Solutions implementation.</p>
-  // },
-];
-{/* ------------------------------End Faq Q/A--------------------------------- */ }
 
-const Services = () => {
+
+const Services = ({ seo }) => {
   return (
     <>
-      <PageTitle page="Testing & QA" />
+    <PageSeo seo={seo} pageName = "Testing And QA" />
       <Navbar />
       <PageTopTitle
         subTitle=""
-        title="Testing & QA" />
+        title="Testing And QA" />
 
       <div className="goal-area ptb-100">
         <div className="container">
@@ -166,7 +116,7 @@ Automated testing methodology accelerates the overall software testing process a
       <div className="goal-area ptb-100 br-bottom-100">
         <div className="container">
           <div className="row align-items-center">
-          <p><h2><b> How Our Testing & QA Service Lifecycle Works</b></h2> 
+          <p><h2><b><center> How Our Testing & QA Service Lifecycle Works</center></b></h2> 
 
 We ensure your software solutions meet your requirements by performing testing and quality assurance activities from the early stage of product development.  
 
@@ -231,6 +181,8 @@ Our software testing and QA experts don’t let any aspect of your software prod
                     We verify your scope of work, test your deliverables, and conduct user acceptance tests coordinating with your clients or end users. We perform a final test and report the outcomes to you.  
                     </p>
                   </li>
+                  <br></br>
+                  <br></br>
 
                   <h3><b><i><center>  Share Your Software Testing & QA Requirements with Our Experts Today! </center></i></b></h3>
                  
@@ -359,8 +311,7 @@ Our software testing and QA experts don’t let any aspect of your software prod
         </div>
       </div>
 
-      <div className="faq-area pb-100">
-        <div className="container">
+      
           <div className="section-title">
             <span className="sub-title dark-green-color">
 
@@ -369,22 +320,30 @@ Our software testing and QA experts don’t let any aspect of your software prod
             Consult our Software Testing & QA Experts for Your Queries 
             </h2>
           </div>
-          <div className="row align-items-center">
-            <div className="col-lg- col-md-12">
-              <div className="faq-accordion">
-                <div className="accordion" id="faqAccordion">
-                  <Accordion questionsAnswers={questionsAnswers} />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+          
+        
       <SubscribeStyle1 />
       <FooterOne />
     </>
   );
 };
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=testing-&-qa&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 
 export default Services;
