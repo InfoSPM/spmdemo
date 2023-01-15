@@ -19,15 +19,23 @@ const handleBlur = (perem) => {
   }
 }
 
-const service1 = () => {
+const services = () => {
   
   return (
     <>
-      <PageTitle page="Service1" />
+      {/* <PageTitle page="Contact US" />
       <Navbar />
       <PageTopTitle
         subTitle=""
-        title="Service1" />
+        title="Contact US" /> */}
+        <div>
+        <br></br>
+        <h2><center> Get A Free Trial Service On </center></h2>
+        <PageTopTitle
+        subTitle=""
+        title="Contact US" />
+        
+        </div>
 
      <div className="goal-area ptb-100">
         <div className="container">
@@ -126,7 +134,7 @@ const service1 = () => {
                         type="submit"
                         className="btn-style-one red-light-color"
                    onClick={()=>alertContent()}   >
-                        Send Message1
+                        Send Message
                       </button>
                       </div>
                   </div>
@@ -135,7 +143,7 @@ const service1 = () => {
             </div>
             <div
               className="col-lg-6 col-md-12"
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
@@ -146,10 +154,9 @@ const service1 = () => {
         </div>
       </div>
 
-      <SubscribeStyle1 />
-      <FooterOne />
+      
     </>
   );
 };
 
-export default service1;
+export default services ;
