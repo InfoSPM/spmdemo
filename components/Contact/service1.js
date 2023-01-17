@@ -19,7 +19,20 @@ const handleBlur = (perem) => {
   }
 }
 
-const services = () => {
+const PageTopTtle = ({ subTtle, ttle }) => {
+  return (
+    <div className="page-title-area">
+      <div className="container">
+        <div className="page-title-content">
+          <span className="sub-title">{subTtle}</span>
+          <h1>{ttle}</h1>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const services = ({ttle}) => {
   
   return (
     <>
@@ -30,11 +43,20 @@ const services = () => {
         title="Contact US" /> */}
         <div>
         <br></br>
-        <h2><center> Get A Free Trial Service On </center></h2>
-        <PageTopTitle
-        subTitle=""
-        title="Contact US" />
         
+                  
+                
+        <h2><center> Get A Free Trial Service On </center></h2>
+        <div
+              className="col-lg-12 col-md-6 col-sm-6"
+              data-aos="flip-right"
+              data-aos-duration="1200"
+            >
+       
+         <center> <strong><h4>   {ttle} </h4></strong>   </center>   
+        
+        
+        </div>
         </div>
 
      <div className="goal-area ptb-100">
