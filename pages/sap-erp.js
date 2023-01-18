@@ -9,62 +9,124 @@ import FooterOne from "@/components/Layout/Footer/FooterOne";
 import Accordion from "@/components/Accordion";
 
 
-import SupportServices from "@/public/images/Support-Services.jpg";
-import Reportinfprocesses from "@/public/images/Reportinf-processes.png";
 import dummyicon from "@/public/images/dummy-icon.png";
-import administeringbmcsmartreporting from "@/public/images/icon/administering-bmc-smart-reporting.png";
-import installingremedysmartreporting from "@/public/images/icon/installing-remedy-smart-reporting.png";
-import integratingbmcremedysmartreporting from "@/public/images/icon/integrating-bmc-remedy-smart-reporting.png";
-import planningforbmcremedysmartreporting from "@/public/images/icon/planning-for-bmc-remedy-smart-reporting.png";
-import troubleshooting from "@/public/images/icon/troubleshooting.png";
-import upgradingbmcitsmartreporting from "@/public/images/icon/upgrading-bmc-it-smart-reporting.png";
-import usingbmcremedysmartreportingcomponents from "@/public/images/icon/using-bmc-remedy-smart-reporting-components.png";
+
+import dummyimg from "@/public/images/dummy-img.png";
 
 
 const questionsAnswers = [
+  
   {
-    question: "Q1: Can I see reports in Report Console to schedule them?",
+    question: "Q1: What are the top SAP Services? ",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>You can see the Reports Remedy Smart Reporting interface. The reports can be scheduled by using broadcast options.</p>
+      <p className="w-100" style={{ textAlign: "justify" }}>Top SAP Services include:
+      <li><strong>1. </strong> Comprehensive SAP Implementation  </li>
+        <li><strong>2. </strong> Global Roll-out  </li>
+        <li><strong>3. </strong> Industry Solution Implementation  </li>
+        <li><strong>4. </strong> Application Management    </li>
+        <li><strong>5. </strong> Functional & Technical Application Support  </li>
+        <li><strong>6. </strong> 24*7 Helpdesk Support    </li>
+        <li><strong>7. </strong> System Monitoring & Maintenance   </li>
+        <li><strong>8. </strong> Upgrade & Migration to SAP  </li>
+        <li><strong>9. </strong> System Performance Optimization    </li>
+        <li><strong>10. </strong> New Product Consultation    </li>
+
+        <li><strong>11. </strong> Security & Compliance      </li>
+
+
+        </p>
+
+
 
   },
   {
-    question: "Q2: Can I use a specific time period for report scheduling?",
+    question: "Q2: What are the Stages of SAP ERP Implementation? ",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>You can’t have a particular time period for report scheduling.</p>
+      <p className="w-100" style={{ textAlign: "justify" }}>SAP ERP comprises various modules like Asset Accounting, Material Management, Production Planning, Quality Management, Maintenance, Human Resources, Warehouse Management, etc.  The main stages of SAP ERP implementation include: 
+      <li><strong>1. </strong> Project Preparation  </li>
+        <li><strong>2. </strong> Business Plan  </li>
+        <li><strong>3. </strong> Realization  </li>
+        <li><strong>4. </strong> Final Preparation  </li>
+        <li><strong>5. </strong> Live Support  </li>
+        
+
+      </p>
+
   },
   {
-    question: "Q3: Will I need a license for the ‘Remedy Smart Reporting’ application?",
+    question: "Q3: What are the top 10 Considerations for ERP Implementation?",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>No, you don’t need to have a separate license for using ‘Remedy Smart Reporting’. Remedy ITSM license allows you to get access to Remedy Smart Reporting.</p>
-  },
-  {
-    question: "Q4: Do you provide training for BMC Remedy Smart Reporting?",
-    answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>Yes. SPM Global Technologies, as one of the best Smart Reporting Vendors, conducts on-the-site and instructor-led online training for integrating BMC Remedy Smart Reporting.</p>
-  },
-  {
-    question: "Q5: How can I access BMC smart reporting?",
-    answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>It is simple.
-        <li>1. Log in to BMC Remedy Mid-Tier.</li>
-        <li>2. Access to Applications menu</li>
-        <li>3. Select Smart Reporting to access Smart Reporting Console.</li>
+      <p className="w-100" style={{ textAlign: "justify" }}> <strong> The top 10 considerations for ERP implementation include: </strong>
+        <li><strong>1. </strong> Business requirement </li>
+        <li><strong>2. </strong> Management support </li>
+        <li><strong>3. </strong> User support </li>
+        <li><strong>4. </strong> Functional needs </li>
+        <li><strong>5. </strong> Existing system integration </li>
+        <li><strong>6. </strong> Budget & resource .</li>
+        <li><strong>7. </strong> Technology & future scalability </li>
+        <li><strong>8. </strong> Cost of ownership & ROI  </li>
+        <li><strong>9. </strong> Options for evaluation & selection  </li>
+        <li><strong>10. </strong> Necessary customization </li>
 
       </p>
   },
   {
-    question: "Q6: What is the role of the Consumer & Collaborator?",
+    question: "Q4: What are the Key Features of SAP ERP Managed Services? ",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>Users, assigned to Consumer & Collaborator role in BMC Smart Reporting, can access dashboards and reports. These users are allowed to broadcast, distribute, & email the reports.
+       <p className="w-100" style={{ textAlign: "justify" }}> <strong> Key features of SAP ERP Managed Services include:  </strong>
+        <li><strong>1. </strong> Asset Management  </li>
+        <li><strong>2. </strong> Improved finance  </li>
+        <li><strong>3. </strong> Seamless Manufacturing   </li>
+        <li><strong>4. </strong>Research & Development & Engineering </li>
+        <li><strong>5. </strong> Enhanced Sales  </li>
+        <li><strong>6. </strong> Integrated Service  Management  </li>
+        <li><strong>7. </strong> Sourcing & Procurement  </li>
+        <li><strong>8. </strong> Supply Chain Management  </li>
+       
+
       </p>
+
+
+      
   },
   {
-    question: "Q7: What is the difference between the roles of ‘Public Content Writer & Collaborator’ and ‘Public Content Writer & Collaborator – Advanced’?",
+    question: "Q5: What are the Businesses Benefits of SAP ERP Modules? ",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>
-        Users, assigned with Public Content Writer & Collaborator – Advanced role, have additional privilege to create & manage report approval, views, and a range of admin items.  These are allowed to update create fresh and delete views.
+      
+        <p className="w-100" style={{ textAlign: "justify" }}> <strong> Top SAP ERP Consultants provide ERP services, across industry verticals. Business entrepreneurs getting  benefited through various modules including:</strong>
+        <li><strong>1. </strong> Financial Control  </li>
+        <li><strong>2. </strong> Human Capital Management  </li>
+        <li><strong>3. </strong> Material Management   </li>
+        <li><strong>4. </strong>Sales & Distribution  </li>
+        <li><strong>5. </strong> Production Planning  </li>
+        <li><strong>6. </strong> Quality Management  </li>
+        <li><strong>7. </strong> Project System  </li>
+        <li><strong>8. </strong> Plant Maintenance   </li>
+        <li><strong>9. </strong> Warehouse Management   </li>
+        <li><strong>10. </strong> Environment, Health & Safety   </li>
+
+
+
       </p>
+     
+  },
+  {
+    question: "Q6: What are the Value Additions from SAP ERP Trainings? ",
+    answer:
+      
+        <p className="w-100" style={{ textAlign: "justify" }}> <strong> Seeking SAP ERP Trainings would help to boost your business through: </strong>
+        <li><strong>1. </strong> Proven Expertise on SAP applications  </li>
+        <li><strong>2. </strong> Domain Knowledge & Application Expertise   </li>
+        <li><strong>3. </strong> Flexible yet lucrative delivery    </li>
+        <li><strong>4. </strong>Verified onsite/offshore practice  </li>
+        <li><strong>5. </strong> Knowledge base & reusable component repository  </li>
+        <li><strong>6. </strong> Compliance with CMMI & ISO standards   </li>
+        <li><strong>7. </strong> Reduced cost of ownership (30-40%)   </li>
+        
+
+
+      </p>
+     
   },
 ];
 
@@ -83,12 +145,64 @@ const Services = () => {
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
                 <h4 className="nunito-font">
-                  SPM Global Technologies offers BMC Smart Reporting Support Services
+                Maximize Return on Investment with SAP ERP Service Providers 
                 </h4>
                 <p style={{ textAlign: "justify" }}>
-                  BMC Remedy Smart Reporting is a web-based easy-to-use report writer much needed by non-technical users. Empowered by the Yellowfin platform, one of the BMC Helix ITSM products facilitates data selection and formatting through the conventional drag-and-drop method. SPM Global Technologies, globally known as the most efficient BMC Smart Reporting third-party vendor, provides cost-effective BMC Remedy Smart Reporting services & support to address your particular ITSM concerns.</p>
-                <h4 className="nunito-font">Top Ten BMC Remedy Smart Reporting Components</h4>
-                <p style={{ textAlign: "justify" }}>BMC Remedy with Smart Reporting sets an advanced workplace environment fostering a social and intuitive experience with mobile services desk; it helps you develop a more collaborative and knowledgeable workforce for particular IT roles. BMC Remedy Smart Reporting is a suite of components that can be customized for particular objectives. We as one of the top BMC Helix ITSM solution providers select and optimize each component to address a range of issues. Here is a list of 10 BMC Smart IT Reporting components:</p>
+                SAP ERP constitutes to be an enterprise resource planning system for the future with integrated technologies like Artificial Intelligence, analytics and machine learning. Many of the SAP ERP service providers deliver an integrated platform to support various business functions like Manufacturing, Financial, Supply Chain Management, Human Resources, Customer Relationship Management, Relationship Management, Projects and Product Lifecycle Management.</p>
+                <h4 className="nunito-font">What is SAP? </h4>
+                <p style={{ textAlign: "justify" }}>The short form of SAP is System Application and Product in Data Processing. It helps the developers manage their business processes and client relationship. SAP software solutions help businesses automate their process of distribution and logistics. These practices are integrated to form a module, interacting with diverse business facets.</p>
+                <h4 className="nunito-font">What is ERP? </h4>
+                <p style={{ textAlign: "justify" }}>ERP is the short form of Enterprise Resource Planning - Software designed to simplify the day to day functions of an organization from logistics to managerial. The technique maintains a balance with key business functions, encompassing human resources, accounting, order management, etc. This software solution is regarded as a centralized system of the business, streamlining processes and information flow in an organization.</p>
+
+
+                <h4 className="nunito-font"> 
+
+Value Additions from SAP ERP Trainings:  </h4>
+                <ul className="overview-list">
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Proven Expertise in SAP applications 
+                  </li>
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Sturdy resources with Domain Knowledge & Application Expertise 
+                  </li>
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Capability to speedily ramp-up resource base as per client requirements 
+                  </li>
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Flexible yet lucrative delivery 
+                  </li>
+
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Verified on-site/offshore practice 
+                  </li>
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Knowledge base and reusable component repository
+                  </li>
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Compliance with CMMI as well as ISO standards
+                  </li>
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Reduced cost of possession of 30-40%
+                  </li>
+
+
+
+                  </ul>
 
               </div>
             </div>
@@ -98,7 +212,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-              <MediaImage name="BMC Smart Reporting Support Services.jpg" data={seo} />
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
           </div>
@@ -107,52 +221,102 @@ const Services = () => {
 
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
+        <h4><center>Industries Benefited through SAP ERP Managed Services </center>  </h4>
+        <p><h5>SAP ERP Managed Services focus on competent methodologies for driving software processes.  As per industry research, SAP provides industry-specific functionalities to specific industries such as: </h5></p>
+
+
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <div className="goal-text">
+              
 
                 <ul className="overview-list">
-                  <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '175px' }}>
+                  <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '100px' }}>
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Administration</h3>
-                    <p>This Remedy Smart component is customized for automated management of content, users, settings, and security.</p>
+                    <h3>Oil & Gas </h3>
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    style={{ height: '175px' }}
+                    style={{ height: '100px' }}
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Data Sources</h3>
-                    <p>It provides quick access to a database for real-time reporting. Each data source needs a separate connection for the particular report development.</p>
+                    <h3>Utilities </h3>
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    style={{ height: '175px' }}
+                    style={{ height: '100px' }}
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Storyboards</h3>
-                    <p>This component allows combining created reports with images, videos, and text.</p>
+                    <h3>Retail </h3>
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    style={{ height: '175px' }}
+                    style={{ height: '100px' }}
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Users</h3>
-                    <p>The ‘user’ defines any person authorized to log in to Remedy Smart BMC Reporting with usage boundaries predefined by security administrators.</p>
+                    <h3>High Tech </h3>
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    style={{ height: '175px' }}
+                    style={{ height: '100px' }}
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Timeline</h3>
-                    <p>It is an auto-generated report that helps the users know occurred events and interact.</p>
+                    <h3>Defense & Security </h3>
                   </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Consumer Goods  </h3>
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Telecommunications </h3>
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Financial Services </h3>
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Wholesale Distribution  </h3>
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Professional Services  </h3>
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Telecommunications </h3>
+                  </li>
+
+
                 </ul>
               </div>
             </div>
@@ -160,49 +324,103 @@ const Services = () => {
               <div className="goal-text">
 
                 <ul className="overview-list">
-                  <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '175px' }}>
+                  <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '100px' }}>
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Discussion Streams</h3>
-                    <p>This BMC Remedy Smart Reporting component facilitates having a collaborative feed containing reports, dashboard tabs, storyboards, images, and screenshots about a particular audience and topic.</p>
+                    <h3>Mill Products </h3>
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    style={{ height: '175px' }}
+                    style={{ height: '100px' }}
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Tasks</h3>
-                    <p>It allows the users to interact for completing particular items like content creation, correction, or any other action.</p>
+                    <h3>Healthcare </h3>
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    style={{ height: '175px' }}
+                    style={{ height: '100px' }}
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Views</h3>
-                    <p>It is a metadata layer in-between the data source and report creation. It specifies logic and fields to authorize the users for report creation.</p>
+                    <h3>Pharma </h3>
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    style={{ height: '175px' }}
+                    style={{ height: '100px' }}
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Reports</h3>
-                    <p>A report, accessible from multiple storyboards and dashboards tabs, details the combination of formatting, charts, and fields.
-                    </p>
+                    <h3>Higher Education & Research </h3>
+                   
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    style={{ height: '175px' }}
+                    style={{ height: '100px' }}
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Dashboard Tabs</h3>
-                    <p>Dashboard tab displays the reports to consumers.
-                    </p>
+                    <h3>Automobiles </h3>
+                   
                   </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Media, Banking </h3>
+                   
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Public Sector </h3>
+                   
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Mining </h3>
+                   
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Engineering </h3>
+                   
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Construction & Operations </h3>
+                   
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{ height: '100px' }}
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Consumer Products </h3>
+                   
+                  </li>
+
+
+
+
+
                 </ul>
               </div>
             </div>
@@ -219,235 +437,205 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={Reportinfprocesses} alt="man-with-son-image" />
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
                 <h4 className="nunito-font">
-                  How Remedy Smart Reporting Simplifies Reporting Processes
+                History of SAP ERP Support Services 
                 </h4>
                 <p style={{ textAlign: "justify" }}>
-                  The fine-tuned integration of BMC Remedy Smart Reporting automates reporting system to keep the in-loop members informed. The enhanced ability to create interactive charts, rich data visualization, and cross-application reports improve the efficiencies of team members to know about the latest incidents. More in common BMC Remedy Smart IT Reporting applications and managed services that make it a worldwide popular reporting dashboard include:</p>
-                <ul className="overview-list">
-                  <li data-aos="fade-up" data-aos-duration="1200">
-                    <i className="flaticon-draw-check-mark"></i>
-                    Quick commenting on the report
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    Adding notes on a report for a particular period
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    Broadcasting reports at set intervals
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    Starting discussions regarding a report within a users’ group
-                  </li>
-                </ul>
+                ERP is developed as per SAP R/3 software, which was formally launched on 6 July 1992. It comprises various applications, established on top of the SAP Web Application Server. The set of extensions helps to deliver innovative features.  
+
+                A comprehensive architecture change occurred with the introduction of SAP ERP in 2004. R/3 Enterprise was substituted with the ERP Central Component (SAP ECC).</p>
+
+                <p style={{ textAlign: "justify" }}>
+                SAP Business Warehouse, Internet Transaction Server and Enterprise Management also integrated into SAP ECC.  
+
+                    SAP Web Application Server was wrapped into SAP NetWeaver in 2003. Architectural modifications facilitated in supporting an enterprise architecture for transitioning clients to a Service-oriented architecture. 
+
+                    In 2006, came the latest version of SAP ERP 6.0. Since then, it has been updated through SAP enhancement packages till SAP Enhancement Pack16 for SAP ERP 6.0 released on 29th March 2021.</p>
+                    <h4 className="nunito-font">
+                      Why choose SAP ERP Service Providers? 
+                </h4>
+
+                    <p style={{ textAlign: "justify" }}>
+                    Irrespective of whether you are having 3 employees or 30,000 employees, SAP ERP Vendors provide a comprehensive portfolio of ERP cloud systems to match your requirements. SAP ERP Third-Party Vendors also have a dedicated support team at your disposal 24/7.  
+
+                    Here are the key reasons why should you opt for SAP ERP Consultants.</p>  
+
+                    <p style={{ textAlign: "justify" }}>
+                    <strong>Latest Technology - </strong>SAP has more than 40 years of ERP experience across industries and businesses. SAP ERP Vendors use the up-to-date technologies for building future-proof cloud ERP tools, delivered through automatic updates.</p> 
+
+                    <p style={{ textAlign: "justify" }}>
+                    <strong>Flexibility - </strong>SAP ERP Managed Services facilitate in creating easy-to-use and flexible cloud ERP applications. Whether you want to customize your work process, use a public or private cloud, or want, flexibility for your business, SAP ERP is always the best solution in this regard.</p> 
+
+                    <p style={{ textAlign: "justify" }}>
+                    <strong>Cloud security management -</strong> The business technology platform of SAP is created on progressive technology infrastructure. A team of experts providing SAP ERP Support Services work on data protection as well as security threats. </p> 
+
+                    <h4 className="nunito-font"> 
+
+                    Top SAP Services include </h4>
+                           <ul className="overview-list">
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              Comprehensive SAP Implementation  
+                             </li>
+
+                             
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              Global rollouts 
+                             </li>
+
+                             
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              Industry Solution Implementations  
+                             </li>
+
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              Application Management  
+                             </li>
+
+
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              Functional & Technical Application Support  
+                             </li>
+
+                            
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              Helpdesk Support for 24*7  
+                             </li>
+
+
+                            
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              System Monitoring & Maintenance 
+                             </li>
+
+
+                             
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              Upgrade Migration related to SAP 
+                             </li>
+
+                            <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              System Performance Optimization 
+                             </li>
+
+                             <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              New Product Consulting 
+                             </li>
+
+                             <li data-aos="fade-up" data-aos-duration="1200">
+                              <i className="flaticon-draw-check-mark"></i>
+                              Security & Compliance  
+                             </li>
+
+
+
+
+
+
+
+
+
+                  </ul>
+
+                   
+                   
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="overview-area ptb-100 bg-f9f9f9">
+      <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
-          <div className="section-title">
-            <h2 className="nunito-font">BMC Smart Reporting Features and Functionality</h2>
-            <p style={{ textAlign: "justify" }}>ROI of any technology integration depends upon the perfect match of functionality and critical issues to be dissolved. Our BMC Smart Reporting specialists analyze existing technical gaps in reporting processes that secretly harm productivity, performance, and quality. For being the top BMC ITSM specialists with years’ experience and proven expertise fine-tune each feature of Smart IT Reporting for seamless core functionality and managed services as your business model needs:</p>
-
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-6">
-                <div className="goal-text">
-
-                  <ul className="overview-list">
-                    <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '430px' }}>
-                    <MediaImage name="Deployment Functionalities1.png" data={seo} />
-                      <h3>Deployment Functionalities</h3>
-                      <p><strong>1.</strong> Available on enterprise</p>
-                      <p><strong>2.</strong> Available on SaaS environment</p>
-                      <p><strong>3.</strong> Options for multiple deployments</p>
-                    </li>
-                    <li
-                      data-aos="fade-up"
-                      data-aos-duration="1200"
-                      style={{ height: '430px' }}
-                    >
-                      <MediaImage name="Self Services Reporting Functionalities1.png" data={seo} />
-                      <h3>Self Service Reporting Functionalities</h3>
-                      <p><strong>1.</strong> Easy report creation with drag & drop facility</p>
-                      <p><strong>2.</strong> Rich data visualization</p>
-                      <p><strong>3.</strong> Interactive charting</p>
-                      <p><strong>4.</strong> Cross-application reporting</p>
-                      <p><strong>5.</strong> Pre-populated views</p>
-                    </li>
-                  </ul>
-                </div>
+          <div className="row align-items-center">
+            <div
+              className="col-lg-6 col-md-12"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="goal-image style-two">
+              <Image src={dummyimg} alt="" />
               </div>
-              <div className="col-lg-6 col-md-6">
-                <div className="goal-text">
+            </div>
+            <div className="col-lg-6 col-md-12">
+              <div className="goal-content style-two">
+                <h4 className="nunito-font">
+                How ERP caters to small and midsize companies? 
+                </h4>
+                <p style={{ textAlign: "justify" }}>
+                SAP Business - A customized ERP solution is much preferred by small firms and subsidiaries of large enterprises. Available in the cloud, the small business ERP software provides an affordable way to manage the business. </p>
 
-                  <ul className="overview-list">
-                    <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '430px' }}>
-                    <MediaImage name="Improved Collaboration Functionalities1.png" data={seo} />
-                      <h3>Improved Collaboration Functionalities</h3>
-                      <p><strong>1.</strong> Broadcasting of reports</p>
-                      <p><strong>2.</strong> Commenting on reports</p>
-                      <p><strong>3.</strong> Discussion initiation on any report</p>
-                      <p><strong>4.</strong> Annotating to explain for improvement</p>
-                      <p><strong>5.</strong> 90 out-of-the-box reports to start quickly</p>
-                    </li>
-                    <li
-                      data-aos="fade-up"
-                      data-aos-duration="1200"
-                      style={{ height: '430px' }}
-                    >
-                      <MediaImage name="Administration Functionalities2.png" data={seo} />
+                <p style={{ textAlign: "justify" }}>
+                SAP Business ByDesign - A complete cloud-based ERP suite helps to foster fast-growing midsize business, connecting every function from finance to sales. The technique conditioned time-tested practices and in-depth analytics in a dynamic environment. .</p>
+                    <h4 className="nunito-font">
+                    Considerations for ERP Implementation 
+                </h4>
 
-                      <h3>Administration Functionalities</h3>
-                      <p><strong>1.</strong> Custom reports/dashboards creation</p>
-                      <p><strong>2.</strong> Out-of-the-box KPI metrics for quick assessment</p>
-                      <p><strong>3.</strong> Analysis of reporting server usage</p>
-                      <p><strong>4.</strong> Administer reports generation</p>
-                      <p><strong>5.</strong> Creation of new views and forms</p>
-                    </li>
-                  </ul>
-                </div>
+                    <p style={{ textAlign: "justify" }}>
+                    ERP is the software tool used at the heart of businesses, enabling professionals to achieve business objectives. Choosing the right solution for business is the most significant decision.  
+
+Take a look at the few criteria of the Enterprise Resource Planning system: </p>  
+
+                    <p style={{ textAlign: "justify" }}>
+                    <ul>
+                    <li> • Business requirements </li>
+                    <li>•  Upper management support  </li>
+                    <li> • User support  </li>
+                    <li>•  Functional requirements  </li>
+                    <li> • Integration with existing systems  </li>
+                    <li>•  Budget and resources  </li>
+                    <li> • Technology and future scalability </li>
+                    <li> • Ownership Cost and Return on Investment  </li>
+                    <li>• Evaluate and select options  </li>
+                    <li> • Necessary customization  </li>
+
+                    </ul>
+
+
+
+
+
+                    </p> 
+                    <h4> Seek the best SAP ERP Training for your business  </h4>
+
+                    <p style={{ textAlign: "justify" }}>
+                    Nowadays various SAP ERP Trainings are available in the market. You have to choose the right one for effectively customizing your business. You may be perturbed by the question – “How will Enterprise Resource Planning deal with your customization?”, “ How can your business goals as well as validation techniques ensure capability with other ERP components? Would you be able to introduce your customization without any adverse effects on other ERP machinery? Many of the Enterprise Resource Planning solutions are available. Opt for the one that would help you to serve your business for the current day as well as for the future. </p> 
+
+                    <p style={{ textAlign: "justify" }}>
+                    To know more about the process, get in touch with the best SAP ERP company and give a boost to your business return on investment. Seeking the right SAP ERP implementation will help your business to speed up the information and management system. So, hire one of the best SAP ERP Consultants and maximize your business profits.  </p> 
               </div>
             </div>
           </div>
         </div>
       </div>
+
+     
 
 
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <h2 className="nunito-font">BMC Remedy Smart Reporting Services by SPM Global Technologies</h2>
-            <p style={{ textAlign: "justify" }}>We are providing turnkey services and support for BMC Smart Reporting integration over the years as a certified third-party vendor. We have helped the number of businesses to improve their performance, productivity, and quality by providing a roadmap for BMC Smart Reporting implementation. The industry-best a range of BMC Remedy Smart Reporting services, provided by SPM Global Technologies, address your diverse needs in the following domains:</p>
+            <h2 className="nunito-font">What is the purpose of hiring SAP ERP Third Party Vendor? </h2>
+            <p style={{ textAlign: "justify" }}>SAP (Systems Applications and Products) is a great enterprise resource planning (ERP) software. SAP ERP Third-Party Vendors facilitate in creating a centralized business system to enable every department to access and share information for building a great work environment. 
+
+               Many of the third party SAP ERP vendors have deep expertise in adopting and supporting SAP Business Intelligence analytics for international clients and enhance Business Intelligence and Analytics with the Business Object offerings.</p>
 
           </div>
-          <div className="row justify-content-center justify-content-center">
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  <Image src={planningforbmcremedysmartreporting} alt="icon" />
-                </div>
-                <h5 className="nunito-font">
-                  Planning for BMC Remedy Smart Reporting:
-                </h5>
-                <p style={{ textAlign: "justify" }}>Our experts optimize the planning for BMC Remedy Smart Reporting integration taking concerns of all the critical issues like security, user permissions, deployment architecture, upgrade, system requirements, language, etc.</p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  <Image src={installingremedysmartreporting} alt="icon" />
-                </div>
-                <h5 className="nunito-font">
-                  Installing Remedy Smart Reporting
-                </h5>
-                <p style={{ textAlign: "justify" }}>After fool-proof planning for BMC Remedy Smart Reporting integration, we audit the requirement of different installers for different BMC Remedy Smart components. We help you to download the installation files, get BMC Remedy license keys, create a spreadsheet detailing different parameters, and create the database for installation. In addition, we support you to install different BMC components like BMC Remedy AR System, BMC Remedy Single Sign-On, BMC Remedy Mid-Tier, BMC Atrium CMDB, BMC Atrium Core Web Services, Atrium Integrator, BMC Configuration Drift Management, BMC Remedy ITSM core, BMC Service Request Management, BMC Service Level Management, BMC Remedy ITSM Process Designer, etc.</p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  <Image src={integratingbmcremedysmartreporting} alt="icon" />
-                </div>
-                <h5 className="nunito-font">
-                  Integrating BMC Remedy Smart Reporting
-                </h5>
-                <p style={{ textAlign: "justify" }}>Our highly trained BMC experts help you with the hassle-free integration of BMC Remedy Smart Reporting. The services under this category take care of all your needs for Remedy AR System server installation, configuration problems, Windows authentication, connecting AR System data source with read-only replicated AR database, etc.</p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  <Image src={upgradingbmcitsmartreporting} alt="" />
-                </div>
-                <h5 className="nunito-font">
-                  Upgrading BMC IT Smart Reporting
-                </h5>
-                <p style={{ textAlign: "justify" }}>BMC releases updates the views with every new release. The support and services for BMC Remedy Smart Reporting upgrade help you to upgrade BMC Remedy Smart Reporting with the silent mode option. We audit the upgraded Smart Reporting; if we find any issue we initiate troubleshooting of Remedy Smart Reporting.</p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  <Image src={usingbmcremedysmartreportingcomponents} alt="" />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Using BMC Remedy Smart Reporting Components:</a>
-                </h3>
-                <p style={{ textAlign: "justify" }}>Using BMC Remedy Smart Reporting Components:</p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  <Image src={administeringbmcsmartreporting} alt="" />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Administering BMC Smart Reporting</a>
-                </h3>
-                <p style={{ textAlign: "justify" }}>Our Remedy Smart Reporting specialists help the administrators with configuration settings, user creation, role permissions assigning, fixing access to views/ data sources/content folders, etc. Get BMC Smart Reporting Trainings from us and upgrade the skills of your IT team to make the most effective use of this solution.</p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  <Image src={troubleshooting} alt="" />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Troubleshooting:</a>
-                </h3>
-                <p style={{ textAlign: "justify" }}>The concern about problem-solving is natural for any new user of Remedy Smart Reporting but when you hire SPM Global Technologies for BMC Smart Reporting consultancy services, be sure of using the Smart Reporting ITSM tool in a trouble-free manner. We help you with troubleshooting in all the critical areas like user synchronization, performance, content synchronization, system information, logging, broadcasting, content import, etc.
-                </p>
-
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
 
@@ -457,44 +645,85 @@ const Services = () => {
             <div className="col-lg-12 col-md-12">
               <div className="working-process-text">
                 <h2 className="nunito-font">
-                  Why Hire SPM Global Technologies as BMC Remedy Smart Reporting Consultant</h2>
-                <span className="sub-title">We are providing BMC services and support over the years as a leading ITSM solution expert. During the journey, we have helped many prestigious businesses to improve their growth rate by integrating advanced ITSM technologies; and, BMC Helix is one of them. By hiring SPM Global Technologies as your BMC Helix Smart Reporting service providers, you can be sure of getting:
-                </span>
+                Difference between SAP & ERP  </h2>
+                
                 <div className="row align-items-center">
               <div className="col-lg-12 col-md-1">
                 <div className="goal-text">
 
                   <ul className="overview-list">
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Enhanced visibility into incidents and trends for strategy improvement of issue resolution rate</h3>
+                      <h3>ERP software solution facilitates companies manage their business processes, whereas SAP sells an ERP software solution to the companies. </h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Improved efficiencies</h3>
+                      <h3>ERP involves a centralized system streamlining processes, whereas SAP integrates the process into modules, interacting with business facets.</h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Reduction of task completion time; hence, faster delivery</h3>
+                      <h3>Enterprise Resource Planning is considered to be a superset of SAP, and SAP is the leading provider of ERP software applications.</h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Unprecedented ROI</h3>
+                      <h3>ERP constitutes a web-based application, whereas SAP provides various options as per requirements</h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Competitively-priced BMC Helix Smart Reporting service support</h3>
+                      <h3>Enterprise Resource Planning focuses more on organizational growth. On the other hand, SAP takes into consideration both the clients and organization, while developing software applications.</h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Online/on the site BMC Smart Reporting training</h3>
+                      <h3>Some of the examples of Enterprise Resource Planning include NetSuite ERP, AcTouch, Scoro, etc. On the other hand, some of the instances of SAP encompass Business Intelligence, Enterprise Buyer Professional, Internet Transaction Server, etc. </h3>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+
+
+      <div className="working-process-area ptb-100 bg-13965f">
+        <div className="container">
+          <div className="section-title">
+            <div className="col-lg-12 col-md-12">
+              <div className="working-process-text">
+                <h2 className="nunito-font">
+                What are the Key features & competencies of SAP ERP?  </h2>
+                
+                <div className="row align-items-center">
+              <div className="col-lg-12 col-md-1">
+                <div className="goal-text">
+
+                  <ul className="overview-list">
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                      <h3><b>Asset Management</b> – Implementing SAP ERP solution, business entrepreneurs could get operational excellence. They could maximize their return on investment by making the right plan, schedule and successfully executing asset management and maintenance activities in an integrated way. </h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Objective-oriented Smart Reporting managed services</h3>
+                    <h3><b>Improved Finance</b> – Finance is also improved through SAP ERP, by simplifying accounting, process and enhancing treasury as well as financial risk management.  </h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>On the time completion of BMC Remedy Smart Reporting integration</h3>
+                    <h3><b>Seamless Manufacturing </b> –  ERP helps in seamless manufacturing, improving production planning, supporting intricate assembly processes and facilitating seamless manufacturing.   </h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Industry best service/support for BMC Remedy Smart Reporting</h3>
+                    <h3><b>Research & Development & Engineering  </b> –  EBetter project control and development help to manage enterprise projects and streamline the process of product lifecycle management.   </h3>
                     </li>
                     <li data-aos="fade-up" data-aos-duration="1200">
-                      <h3>Affordable BMC Smart IT Reporting consultancy with a flexible scope</h3>
+                    <h3><b>Enhanced Sales  </b> –  here are enhanced sales and revenue with order and contract management.    </h3>
                     </li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <h3><b>Integrated Service  Management </b> –  Moreover, entrepreneurs can deliver exceptional and reliable service with holistic analytics and service management.    </h3>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <h3><b>Sourcing & Procurement  </b> –  IT professionals could modernize operational purchasing, as well as mechanize source, and manage contracts, by centralizing the process of the procurement process.    </h3>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <h3><b>Supply Chain Management </b> –  The entire supply chain offers accurate and integrated transportation management, streamlining warehouse management.     </h3>
+                    </li>
+                    
+                    
                   </ul>
                 </div>
               </div>
@@ -505,12 +734,11 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services-area with-top-border pt-100 pb-75">
-        <div className="container">
-          <span className="sub-title"></span>
-          <p>Our end-to-end consulting approach for BMC Smart Reporting integration develops an organizational culture of better organized IT teams, streamlined workflows at increased transparency, minimum silos, the fastest deliveries at peak efficiencies, prompt quality checks at each stage for zero-defect development, etc.</p>
-        </div>
-      </div>
+
+
+
+
+      
 
       <div className="faq-area pb-100">
         <div className="container">
