@@ -208,6 +208,7 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   </li>
                   <li
                     data-aos="zoom-out-down"
+                   
                     data-aos-duration="1200"
                     data-aos-delay="100"
                   >
@@ -637,6 +638,30 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
               </div>
               
               
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className="faq-area pb-100">
+        <div className="container">
+          <div className="section-title">
+            <span className="sub-title dark-green-color">
+
+            </span>
+            <h2 className="nunito-font">
+              Frequently Asked Questions
+            </h2>
+          </div>
+          <div className="row align-items-center">
+            <div className="col-lg- col-md-12">
+              <div className="faq-accordion">
+                <div className="accordion" id="faqAccordion">
+                  <Accordion questionsAnswers={questionsAnswers} />
+                </div>
+              </div>
             </div>
           </div>
         </div>

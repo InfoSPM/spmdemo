@@ -41,6 +41,7 @@ const Services = ({ seo }) => {
                     <h3>95%</h3>
                     <p className="w-100" style={{ textAlign: "justify" }}>According to Webinarcare, 95% of businesses consider managing unstructured data challenging.</p>
                   </li>
+                  
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
@@ -50,7 +51,10 @@ const Services = ({ seo }) => {
                     <p className="w-100" style={{ textAlign: "justify" }}>
                       More than 97% of businesses invest in big data and AI for better data storage, management, and governance.</p>
                   </li>
+                  
+                  
                   <li
+                  
                     data-aos="fade-up"
                     data-aos-duration="1200"
                     style={{ height: '150px' }}>
