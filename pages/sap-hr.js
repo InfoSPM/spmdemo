@@ -89,51 +89,17 @@ const Services = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
+            <h4> SPM Global Technologies - #1 SAP HR Consultant & SAP HR Support Services Provider   </h4>
               <div className="goal-content style-two">
-                <p style={{ textAlign: "justify" }}>SPM Global Technologies, <a href="
-https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service providers and Sales Cloud consultant, provides comprehensive managed support services for integration, configuration, and implementation of Salesforce Sales Cloud to help you achieve the best sales success. Our industry-best Sales Cloud support services empower the sales and marketing teams to improve productivity by-
+                <p style={{ textAlign: "justify" }}>SAP HR, also known as SAP Human Resource Management System (SAP HRMS) or SAP Human Capital Management (SAP HCM), is a key module in SAP. It facilitates the organizations to automate payroll management, HR administration, record-keeping, and other HR processes that otherwise consume lots of effort and time. SPM Global Technologies, as being one of the top SAP HR managed services providing agencies and SAP HR consultants, offers comprehensive SAP HR support services, task-oriented consultancy, and role oriented SAP HR trainings.   -
                 </p>
-                <ul className="overview-list">
-                  <li data-aos="fade-up" data-aos-duration="1200">
-                    <i className="flaticon-draw-check-mark"></i>
-                    Getting more leads
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    Deciding faster
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    Closing the leads/cases faster
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    Closing more leads/cases
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    Getting better ‘leads to sales’
-                  </li>
-                  <li
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
-                  >
-                    <i className="flaticon-draw-check-mark"></i>
-                    Reducing efforts and time for closing leads/cases
-                  </li>
-                </ul>
+                <h4> SAP HXM- Next Gen Human Capital Management:  </h4>
+
+
+                <p style={{ textAlign: "justify" }}>SAP Human experience management (HXM), rolled out as the next-gen human capital management (HCM) software, shifts the organization’s focus from supporting conventional HR processes to deliver ultimate experiences considering employees first. The SAP SuccessFactors HXM Suite is developed on the best HCM practices. SPM Global Technologies, as a leading SAP HR consultant and services provider agency, simplifies embracing SAP HXM through innovative customized-to-need solutions.  
+                </p>
+
+                
               </div>
             </div>
             <div
@@ -142,7 +108,7 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-              <MediaImage name="sales cloud images.jpg" data={seo} />
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
           </div>
@@ -158,25 +124,56 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
               data-aos-duration="1200"
             >
               <div className="goal-image">
-              <MediaImage name="spm-well-trained-servicesow-experts.jpg" data={seo} />
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="goal-content">
                 <h3 className="nunito-font">
-                What is Salesforce Sales Cloud?  
+                SAP HR Training by SPM Global Technologies- The Scope 
                 </h3>
-                <p style={{ textAlign: "justify" }}>Sales Cloud refers to the “sales” module of Salesforce Lightning. It is a cloud-based CRM platform designed to integrate and manage real-time information about customers, leads, and sales. The prime objective of Salesforce Lightning Sales Cloud is to automate the lead management and sales process to improve the performance and productivity of sales managers, field sales executives, presales specialists, and reps. </p>
-                <p style={{ textAlign: "justify" }}>Salesforce Lightning Sales Cloud is available in four different editions (Essentials, Professional, Enterprise, and Unlimited) with different capabilities to suit your optimized business objectives and budget. Sales Cloud can be integrated with other Salesforce Cloud platforms also like Analytics Cloud, Marketing Cloud, Community Cloud, Service Cloud, etc. The top business sectors that highly benefitted by embracing and relying on Sales Cloud for their strategic growth are financial services, automotive, communications, CPG/retail, higher ED, healthcare, life sciences, media, manufacturing, non-profit, public sector, etc.
-                </p>
-                <div
-                  className="btn-box"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <a className="btn-style-one dark-green-color" style={{ textAlign: "justify" }}>
-                    Technically, Salesforce Pardot associates with Sales Cloud, whereas Marketing Cloud needs an alignment with its native Cloud platform. We understand such technicalities related to Sales Cloud Vs Marketing Cloud. You can rely on us for proper Sales Cloud implementation and aligned services.</a>
-                </div>
+                <p style={{ textAlign: "justify" }}>We are performing as the SAP HR third party vendor for over the years. We are helping the organizations to integrate futuristic SAP HR solutions and as well as for having the trained skills to leverage the SAP HR benefits. We have the industry-best SAP HR trainers to conduct task-oriented online SAP HR trainings to help your concerned HR professionals use each feature and functionalities of SAP HR up to its full potential. During the instructor-led training, HR professionals learn to use SAP HR for </p>
+                
+                <ul className="overview-list">
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Time management   </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Executing a personnel action  </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Configuring positions   </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Organizational management   </li>
+
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Configuring an organizational structure   </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Personnel administration   </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Executing a personnel action   </li>
+
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Developing enterprise structure … other   </li>
+
+
+                    </ul>
+
+                  
+                
               </div>
             </div>
           </div>
@@ -189,67 +186,56 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
                 <h3 className="nunito-font">
-                  Importance of Outsourcing Sales Cloud Support Services and Benefits:
+                Top Eight Features and Functionalities of SAP HR:  
                 </h3>
-                <p style={{ textAlign: "justify" }}>The success rate of every business highly depends upon faster and predictable productivity improvement of sales teams.
-                  Sales Cloud managed services provider and Sales Cloud third party vendor, SPM Global Technologies has proven capabilities to leverage the B2C and B2B benefits of Sales Cloud integration, and configured implementation</p>
-                <p style={{ textAlign: "justify" }}>Businesses need to develop and empower sales professionals with integrated training, Coaching, and onboarding. Salesforce Lightning Sales Cloud is an ideal Enterprise sales management solution that suits every size and type of business whether it is a small to medium business, commercial establishment, or enterprise.
-                </p>
-                <span>The integrated automated support and scalable performance metrics help the sales teams and organizations both.</span>
+                <p style={{ textAlign: "justify" }}>As one of the top SAP HR service providers, we leverage the benefits of each SAP HR feature by our tailored-to-need SAP HR managed services. SAP HR also called SAP HRMS is a suite of features and functionalities; the top eight SAP HR features and functionalities that will transform your HR functioning experience are:  </p>
+                
                 <ul className="overview-list">
                   <li data-aos="fade-up" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    Increased opportunities (Specifically designed for salespeople)
-                  </li>
+                    PINCH:  Facilitates to define a default value for an Administrator group                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Accurate and dependable data-driven forecasting
-                  </li>
+                    SCHKZ: Facilitates to define a default value for a particular work schedule rule for a working time                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Personalization of the entire sales process
-                  </li>
+                    TMSTA: Facilitates to define a default value for Time management status for a planned working time                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Productivity improvement (37% increase in sales volume)
-                  </li>
+                    DATAR: Facilitates to define a default value in Date Specifications info-type                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Steady growth (Sales Cloud customers experience a 45% boost in customer retention)
-                  </li>
+                    ABKRS: Facilitates to define a default value for the payroll                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Shortened sales cycle facilitating the salespeople to focus better on new sales opportunities
-                  </li>
+                    IGMOD: Facilitates to differentiate info-type flow per employee                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Better aligned sales and marketing activities
-                  </li>
+                    TARIF: Facilitates to define a default value for pay scale type and area                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Less time-consuming accurate reporting
-                  </li>
+                    CONTR: Facilitates to define a default value for Additional sick pay, Probationary period, Contract type, Notice period etc.                    </li>
                 </ul>
               </div>
             </div>
@@ -260,7 +246,7 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
             >
               <div className="goal-image style-two">
               {/* <MediaImage name="goal2.jpg" data={seo} /> */}
-              <MediaImage name="importance of outsourcing sales cloud support services and benefits.jpg" data={seo} />
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
           </div>
@@ -277,17 +263,49 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
             >
               <div className="goal-image">
                 {/* <Image src={dummyimg} alt="" /> */}
-                <MediaImage name="sales-cloud-business-feature-and-capabilities.jpg" data={seo} />
+                <Image src={dummyimg} alt="" />
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="goal-content">
                 <h3 className="nunito-font">
-                  How does Sales Cloud help the Businesses? Features & Capabilities
+                Benefits of Hiring A SAP HR Third Party Vendor- 7 SAP HR Benefits:  
 
                 </h3>
-                <p style={{ textAlign: "justify" }}>Salesforce Sales Cloud is named Gartner Magic Quadrant Leader in Sales Force Automation (SFA) on August 3, 2020 for the straight 14th year; the globally recognized credential certifies the excellence of Salesforce innovation. As one of the top-performing Sales Cloud vendors and Sales Cloud managed services provider, we configure and customize each Sales Cloud feature to maximize the productivity resulting in increased sales volume:</p>
+                <p style={{ textAlign: "justify" }}>The increasing numbers of companies in different business sectors are experiencing the benefits of integrating SAP HR HXM; however, the ultimate satisfaction highly depends upon the success of hiring the best among SAP HR vendors. We have years’ experience in helping businesses to streamline and automate their HR functions through cloud-based SAP HR solutions. Seven top SAP HR benefits that make it a top choice of businesses worldwide are  :</p>
+                <ul className="overview-list">
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Delivers insights to understand your employees’ need   </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Continuous improvements in HR decisions to inspire the employees for better performance    </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Development of positive organizational culture  </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Creates a consistent HR process as per the latest norms   </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Automation improves data quality   </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Improves HR service delivery   </li>
+
+                    <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP SuccessFactors and SAP Fieldglass help to manage workforce   </li>
+
+                
+
+                    </ul>
               </div>
             </div>
           </div>
@@ -299,75 +317,78 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
 
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
+        <h4><center> Five Sub-Modules of SAP HR:  </center> </h4>
+        <a> SAP HR, widely known as SAP Human Capital Management (SAP HCM) also, contains five modules to allowing the organizations to optimize SAP HR functioning for achieving peak performance and cost-effectivenessSAP HR, widely known as SAP Human Capital Management (SAP HCM) also, contains five modules to allowing the organizations to optimize SAP HR functioning for achieving peak performance and cost-effectiveness </a>
           <div className="row justify-content-center justify-content-center">
+          
             <div
               className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-right"
               data-aos-duration="1200"
             >
               <div className="services-box">
                 <div className="icon">
                   {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="sales path process automation.png" data={seo} />
+                  <Image src={dummyicon} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                Sales Path Process Automation
+                Personnel Administration
                 </h5>
-                <p style={{ textAlign: "justify" }}>It allows the sales managers to define and manage sales processes easily. It shows appropriate actions for the sales reps; thus, helps the managers to guide and monitor sales behavior and activities more effectively.</p>
+                <p style={{ textAlign: "justify" }}>It records employee’s information to automate a range of administrative tasks including the hiring of employees, travel expenses, personnel information, payroll accounting, etc. </p>
               </div>
             </div>
             <div
               className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-right"
               data-aos-duration="1200"
             >
               <div className="services-box">
                 <div className="icon">
                   {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="sales cloud einstein ai.png" data={seo} />
+                  <Image src={dummyicon} alt="" />
 
                 </div>
                 <h5 className="nunito-font">
-                Sales Cloud Einstein / AI
+                Organizational Management
                 </h5>
-                <p style={{ textAlign: "justify" }}>AI-powered analytical capabilities help the sales managers to have accurate predictions based on clouded information, trends, and engagement opportunities.</p>
+                <p style={{ textAlign: "justify" }}>it helps the HR professionals to analyze a current organizational plan and to restructure it based on delivered insights by auto-generated graphical reports for different concerns.</p>
               </div>
             </div>
             <div
               className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-right"
               data-aos-duration="1200"
             >
               <div className="services-box">
                 <div className="icon">
                   {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="Sales-CPQ.png" data={seo} />
+                  <Image src={dummyicon} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                Sales – CPQ
+                Time Management
                 </h5>
-                <p style={{ textAlign: "justify" }}>Our highly trained BMC experts help you with the hassle-free integration of BMC Remedy Smart Reporting. The services under this category take care of all your needs for Remedy AR System server installation, configuration problems, Windows authentication, connecting AR System data source with read-only replicated AR database, etc.</p>
+                <p style={{ textAlign: "justify" }}>It delivers a holistic view to help the HR people for managing attendance records, shifts regulation, work schedule for a particular month, activity allocation, time evaluation, holiday calendars, etc. </p>
               </div>
             </div>
             <div
               className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-right"
               data-aos-duration="1200"
             >
               <div className="services-box">
                 <div className="icon">
                   {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="products &price book.png" data={seo} />
+                  <Image src={dummyicon} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                Products & Price Books
+                Travel Management
                 </h5>
-                <p style={{ textAlign: "justify" }}>The time-saving feature simplifies setting pricing options to quote faster for listed services and products. It allows sales managers to announce special discounts for a particular customer group or territory. The custom layouts and fields simplify managing multiple prices with different criteria for a single product.</p>
+                <p style={{ textAlign: "justify" }}> It simplifies tracking and report generation for accounting official trips, travel cost management, and travel expenses etc. SAP HR Travel Management module simplifies all the key functions of staff traveling aligned to advance payment, meal allowance calculation, claim management, regulation of norms etc.</p>
               </div>
             </div>
             <div
               className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-right"
               data-aos-duration="1200"
             >
               <div className="services-box">
@@ -375,94 +396,16 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
                   <Image src={dummyicon} alt="" />
                 </div>
                 <h3 className="nunito-font">
-                  <a>Sales Chatter</a>
+                  <a>Payroll Accounting</a>
                 </h3>
-                <p style={{ textAlign: "justify" }}>It lets the salespeople in different roles collaborate on service cases, sales opportunities, projects, and campaigns. It facilitates the employees to share and access the information faster for improved productivity.</p>
+                <p style={{ textAlign: "justify" }}>It automates several key functioning of payroll management like computation of wages, taxes, insurance, deductions, medical benefits, etc. </p>
               </div>
             </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="Sales Enablement.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Sales Enablement</a>
-                </h3>
-                <p style={{ textAlign: "justify" }}>The feature supports the salespeople to sell more by enabling the potential customers to buy promptly because they have more material and guided practices to convince and engage the customers. Sales Enablement aligns marketing, sales, and management to convert the opportunities into revenue.</p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="mulessoft integration with sales cloud.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>MuleSoft Integration with Sales Cloud</a>
-                </h3>
-                <p style={{ textAlign: "justify" }}>Salesforce MuleSoft connector simplifies the integration across Service Cloud, Sales Cloud, Salesforce Platform, Force.com, etc. It provides the access to Salesforce entities and automates the business processes to increase revenue and serve the customers better.</p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="pipeline-forecost-management.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Pipeline & Forecast Management</a>
-                </h3>
-                <p style={{ textAlign: "justify" }}>It helps the organizations to plan ahead in line with comprehensive forecasting based on KPIs. The real-time view of forecasts allows for adjusting at right time.
-                </p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="sales-collaboration.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Sales Collaboration</a>
-                </h3>
-                <p style={{ textAlign: "justify" }}>The tool allows the sales teams to collaborate better and perform better. Anytime and anywhere access to critical projects, teams, and topics drives in higher productivity because it expedites the entire sales process.
-                </p>
-              </div>
-            </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="lightening-voice.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Lightning Voice</a>
-                </h3>
-                <p style={{ textAlign: "justify" }}>Salesforce Lightning Voice feature enables one-click calling with automated call logging to communicate with customers and prospects. The facility to localize sales reps’ phone numbers for the particular territories contributes to an improved response rate.
-                </p>
-              </div>
-            </div>
+           
+            
+           
+           
+           
           </div>
         </div>
       </div>
@@ -470,135 +413,69 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
 
 
 
-      <div className="services-area with-top-border pt-100 pb-75">
-        <div className="container">
-          <div className="section-title">
-            <h2 className="nunito-font">
-              What Do We Do as Sales Cloud Managed Services Providers?
-            </h2>
-            <p style={{textAlign: "justify"}}>SPM Global Technologies has in-depth knowledge, global exposure to the latest practices, and proven expertise in customized Salesforce Sales Cloud solutions. As an innovative Sales Cloud managed services provider, we set up, configure and customize Salesforce Sales Cloud assuring you of improved sales, increased revenue, and better customer relationships. The ever-expanding list of Salesforce services makes us the best trustworthy Salesforce Sales Cloud service providers:</p>
-          </div>
-          <div className="row justify-content-center justify-content-center">
-            <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box" style={{ height: '200px' }}>
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="sales-cloud-consulation-as-a-sales-cloud-third-party-vendor.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Sales Cloud Consultation as a Sales Cloud Third-Party Vendor </a>
-                </h3>
-              </div>
-            </div>
-            <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box" style={{ height: '200px' }}>
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="migration-to-lightning-sales-cloud-experience.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Migration to Lightning Sales Cloud Experience</a>
-                </h3>
-              </div>
-            </div>
-            <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box" style={{ height: '200px' }}>
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="salesforce-sales-cloud-implementation.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Salesforce sales Cloud Implementation</a>
-                </h3>
-              </div>
-            </div>
-            <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box" style={{ height: '200px' }}>
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="Salesforce Sales Cloud Integration.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Salesforce Sales Cloud Integration</a>
-                </h3>
-              </div>
-            </div>
-            <div
-              className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <div className="services-box" style={{ height: '200px' }}>
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <MediaImage name="sales-cloud-customization.png" data={seo} />
-                </div>
-                <h3 className="nunito-font">
-                  <a>Sales Cloud Customization</a>
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     
 
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
-                <h3>Sales Cloud Trainings by SPM Global Technologies</h3>
-                <p style={{ textAlign: "justify" }}>As being one of the top Sales Cloud vendors, we conduct a range of task and career-oriented Sales Cloud trainings Salesforce:
-                  The Sales Cloud trainings are conducted in instructor-led and self-learning virtual modules to help the growth and performance concerned Salesforce professionals, such as Platform Developer I training. We follow the latest updated training curriculum and lab practices to help you easily have globally acknowledged Salesforce certified credentials for high-rated job roles like field services Lightning consultant, platform developer, certified system architect, certified application architect, Pardot consultant, Pardot specialist, CPQ specialist, certified technical architect, mobile solutions architecture designer etc.</p>
+                <h3>SAP HR Training by SPM Global Technologies- The Scope</h3>
+                <p style={{ textAlign: "justify" }}>We are performing as the SAP HR third party vendor for over the years. We are helping the organizations to integrate futuristic SAP HR solutions and as well as for having the trained skills to leverage the SAP HR benefits.</p>
+                <p style={{ textAlign: "justify" }}>We have the industry-best SAP HR trainers to conduct task-oriented online SAP HR trainings to help your concerned HR professionals use each feature and functionalities of SAP HR up to its full potential. During the instructor-led training, HR professionals learn to use SAP HR.</p>
+
                 <ul className="overview-list">
                   <li data-aos="fade-up" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    Salesforce Sales Cloud Consultant Certification
+                    Time management 
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Sales Cloud Training for Sales Reps Using Lightning
-                  </li>
+                    Executing a personnel action   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Sales Cloud Training for Sales Managers
-                  </li>
+                    Configuring positions     </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Administrative Essentials in Lightning Experience
-                  </li>
+                    Organizational management   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Certification Preparation for Advance Administrative
-                  </li>
+                    Configuring an organizational structure   </li>
+                    <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Personnel administration   </li>
+                    <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Executing a personnel action      </li>
+                    <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Developing enterprise structure … other      </li>
+
+
+
+
+
                 </ul>
               </div>
             </div>
@@ -609,7 +486,7 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
             >
               <div className="goal-image style-two">
                 {/* <Image src={dummyimg} alt="" /> */}
-                <MediaImage name="Sales cloud training.jpg" data={seo} />
+                <Image src={dummyimg} alt="" />
               </div>
             </div>
           </div>
@@ -626,54 +503,233 @@ https://www.google.com/"> Google</a>the best Salesforce Sales Cloud service prov
             >
               <div className="goal-image">
                 {/* <Image src={dummyimg} alt="" /> */}
-                <MediaImage name="Sales cloud third party vendor Services providers.jpg" data={seo} />
+                <Image src={dummyimg} alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="goal-content">
                 <h3 className="nunito-font">
-                  SPM Global Technologies: The Best Sales Cloud Third-Party Vendor & Services Provider:
+                What We Offer as the Best SAP HR Service Providers: SAP HR Services:  
                 </h3>
-                <p style={{ textAlign: "justify" }}>In the role of Sales cloud CRM services provider and Sales Cloud third party vendor, SPM Global Technologies has helped the numbers of businesses to improve their sales with reduced investment. Our in-house Sales Cloud experts emphasize understanding the performance gaps, improvement scope, competitive challenges, and your particular concerns. Over the years, SPM Global Technologies has become the top choice of businesses relying on Salesforce Sales Cloud to increase their sales in a competitive and buying behavior-sensitive marketing environment because of –</p>
+                <p style={{ textAlign: "justify" }}>By trusting SPM Global Technologies as the best among the top SAP HR vendors, you can be sure of getting the most cost-effective SAP HR solutions in a range of domains. We have proven expertise in helping you achieve your HR goals by a range of task-specific SAP HR/SAP HCM/ SAP HXM services: </p>
                 <ul className="overview-list">
                   <li data-aos="fade-up" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    Industry best efficiency
+                    SAP HR/SAP HCM/ SAP HXM consultancy services 
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Transparency, Availability
+                    SAP HR/SAP HCM/ SAP HXM transformation services                    </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP HR/SAP HCM/ SAP HXM application development services                   </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP HR/SAP HCM/ SAP HXM implementation services 
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Competitive pricing
+                    SAP HR/SAP HCM/ SAP HXM self service applications 
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Extended flexibility
+                    SAP HR/SAP HCM/ SAP HXM analytics 
                   </li>
+
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Customer-friendly innovation approach
+                    SAP HR/SAP HCM/ SAP HXM trainings 
                   </li>
+
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP HR/SAP HCM/ SAP HXM managed services  
+                  </li>
+
+
+
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="services-area with-top-border pt-100 pb-75">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12">
+            <h4> SAP HR HXM solutions   </h4>
+              <div className="goal-content style-two">
+                <p style={{ textAlign: "justify" }}>Our task-specific SAP HR HXM solutions effectively address all your concerns to eliminate the particular performance silos aligned to HR management, processes, and policies:
+                </p>
+                
+
+                <ul className="overview-list">
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP Work Zone for HR: To provide access to information that employees need  
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP SuccessFactors Document Management Core: For centralized document management 
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP SuccessFactors Employee Central, Payroll & Service Center: For flexible HRIS
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP Qualtrics Employee Engagement: To improve employee engagement 
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Qualtrics EmployeeXM: To improve employee experience with digital support  
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP Qualtrics 360 Feedback: To assess performance feedback 
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP Qualtrics Employee Lifecycle: To manage employee lifecycle 
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 col-md-12"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="goal-image style-two">
+              <Image src={dummyimg} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="services-area with-top-border pt-100 pb-75">
+        <div className="container">
+          <div className="row align-items-center">
+            <div
+              className="col-lg-6 col-md-12"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="goal-image">
+                {/* <Image src={dummyimg} alt="" /> */}
+                <Image src={dummyimg} alt="" />
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12">
+              <div className="goal-content">
+                <h3 className="nunito-font">
+                Why Choose SPM Global Technologies for SAP HR Support Services  
+                </h3>
+                <p style={{ textAlign: "justify" }}>By trusting SPM Global Technologies as the best among the top SAP HR vendors, you can be sure of getting the most cost-effective SAP HR solutions in a range of domains. We have proven expertise in helping you achieve your HR goals by a range of task-specific SAP HR/SAP HCM/ SAP HXM services: </p>
+                <ul className="overview-list">
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    We are leader in custom SAP HR solution development  
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    We believe in doing right for a cause   </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    We have courage to innovate SAP HR/SAP HCM/ SAP HXM solutions       </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    We have proven excellence to meet deadlines   
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    We offer all SAP HR support services at one place  
+                  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    We offer managed services for SAP HCM upgrade  
+                  </li>
+
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    We offer the best-priced SAP HR managed services 
+                  </li>
+
+              
+
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
 
       <div className="faq-area pb-100">
         <div className="container">
