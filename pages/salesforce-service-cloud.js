@@ -6,16 +6,73 @@ import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
+import Accordion from "@/components/Accordion";
+
 
 
 import dummyimg from "@/public/images/dummy-img.png";
 import dummyicon from "@/public/images/dummy-icon.png";
 
 
-const Services = () => {
+
+
+{/* ------------------------------Faq Q/A--------------------------------- */ }
+const questionsAnswers = [
+  {
+    question: "Q1: Do you provide Salesforce trainings for marketing Cloud certification also?",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Answer: As being the authorized Salesforce vendor, we conduct a range of Salesforce trainings for top-in-demand Salesforce certifications like Salesforce Administrator and App Builder, Salesforce Sales Cloud Consultant Certification, Salesforce Marketing Cloud Consultant Certification, Salesforce Marketing Cloud Email Specialist Certification etc.
+
+        
+      </p>
+
+  },
+  {
+    question: "Q2: What is the difference between Salesforce Service Cloud vs Sales Cloud?  ",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Salesforce Service Cloud is focused more to help businesses sell services and products by resolving the cases faster with automation and knowledge base. Service Cloud managed services are highly effective for selling services in a better way. Sales Cloud is more focused to help the businesses generate more leads and opportunities to sell. Customer engagement for improved CRM is the combined trait of both.  
+      </p>
+  },
+  {
+    question: "Q3: Does Salesforce offer a free trial of Service Cloud?  ",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Yes, Salesforce offers free trial of Service Cloud with limited features and capabilities.
+       
+
+
+      </p>
+  },
+  {
+    question: "Q4:Is Lightning Salesforce Service Cloud effective to improve agent productivity?  ",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Salesforce Lightning Service Cloud support services empower the agents to respond the customers on any platform quickly, relevantly and efficiently. The in-built knowledge base provides a 360-degree view of customers to improve technical expertise of agents.  
+      </p>
+  },
+  {
+    question: "Q5: What are the key business objectives that make hiring a Service Cloud consultant a justified decision? ",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Following are key objectives that are met by the majority of Service Cloud users:   
+        <li>• Personalized Service  </li>
+        <li>• Faster customer support </li>
+        <li>• Always on Service - 24/7 availability   </li>
+        <li>• Upgrade your data infrastructure. </li>
+        <li>• Multi-channel and multi-device customer support </li>
+      </p>
+  },
+  
+];
+{/* ------------------------------End Faq Q/A--------------------------------- */ }
+
+
+
+
+const Services = ({ seo }) => {
   return (
     <>
-      <PageTitle page="Salesforce Service Cloud" />
+      <PageSeo seo={seo} pageName = "Salesforce Service Cloud" />
       <Navbar />
       <PageTopTitle
         subTitle=""
@@ -42,7 +99,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="lightning salesforce services cloud.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -58,7 +115,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="features-&-funtionalities-of-salesforce-services.jpg" data={seo} />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -134,7 +191,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="higher ed.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   Higher Ed
@@ -149,7 +206,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                 <MediaImage name="case-management.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   Case Management
@@ -164,7 +221,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="service-process-automation.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   Service Process Automation
@@ -179,7 +236,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="omni-channel-routing.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   Omni Channel Routing
@@ -194,7 +251,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="computer-telephone-integration.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Computer Telephony Integration</a>
@@ -209,7 +266,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="asset order management.jpg" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Asset & Order Management</a>
@@ -224,7 +281,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Agent workspace.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Agent Workspace</a>
@@ -239,7 +296,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="knowledge management.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Knowledge Management</a>
@@ -255,7 +312,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="seven benefits of salesforce service cloud why you should embrace service cloud.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Seven Benefits of Salesforce Service Cloud- Why You Should Embrace Service Cloud:</a>
@@ -276,7 +333,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="service enablement withservice analytics.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Service Enablement with Service Analytics</a>
@@ -292,7 +349,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Automation with macros.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Automation with Macros</a>
@@ -308,7 +365,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="field-service.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Field Service</a>
@@ -337,7 +394,7 @@ const Services = () => {
             >
               <div className="services-box" style={{ height: '200px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Salesforce Service cloud Integration.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Salesforce Service Cloud Integration</a>
@@ -351,7 +408,7 @@ const Services = () => {
             >
               <div className="services-box" style={{ height: '200px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Service cloud implementation.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Service Cloud Implementation</a>
@@ -407,7 +464,7 @@ const Services = () => {
             >
               <div className="services-box" style={{ height: '200px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="On the site service cloud salesforce training.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>On the Site Service Cloud Salesforce Trainings</a>
@@ -490,7 +547,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="Salesforce services cloud certification training we conduct the best.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -506,7 +563,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="Service cloud managed services provider.png" data={seo} />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -569,11 +626,56 @@ const Services = () => {
         </div>
       </div>
 
+
+
+      <div className="faq-area pb-100">
+        <div className="container">
+          <div className="section-title">
+            <span className="sub-title dark-green-color">
+
+            </span>
+            <h2 className="nunito-font">
+              Frequently Asked Questions
+            </h2>
+          </div>
+          <div className="row align-items-center">
+            <div className="col-lg- col-md-12">
+              <div className="faq-accordion">
+                <div className="accordion" id="faqAccordion">
+                  <Accordion questionsAnswers={questionsAnswers} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
       <SubscribeStyle1 />
       <div className="border-tb" />
       <FooterOne />
     </>
   );
 };
+
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=salesforce-service-cloud&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 
 export default Services;
