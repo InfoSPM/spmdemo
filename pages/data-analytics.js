@@ -21,6 +21,11 @@ const Services = () => {
         subTitle=""
         title="Data Analytics" />
 
+        
+
+ 
+
+
       {/* <div className="goal-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
