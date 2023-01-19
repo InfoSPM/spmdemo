@@ -6,15 +6,21 @@ import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
+import Service1 from "@/components/Contact/Service1";
 
 import goalImg from "@/public/images/goal.png";
 import manWithSon from "@/public/images/man-with-son.png";
 import bmc from "@/public/images/icon/bmc.png";
+import dummyimg from "@/public/images/dummy-img.png";
+import dummyicon from "@/public/images/dummy-icon.png";
 
-
-const Services = () => {
+const Services = ({ seo }) => {
   return (
     <>
+    <PageSeo seo={seo} pageName = "ERP" />
       <PageTitle page="ERP" />
       <Navbar />
       <PageTopTitle
@@ -41,7 +47,7 @@ Most Reliable Custom ERP Solution Company
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={manWithSon} alt="" />
+              <MediaImage name="Enterprise Resource Planning (ERP) Solutions.png" data={seo} />
               </div>
             </div>
           </div>
@@ -57,7 +63,7 @@ Most Reliable Custom ERP Solution Company
               data-aos-duration="1200"
             >
               <div className="goal-image">
-                <Image src={goalImg} alt="goal-image" />
+              <MediaImage name="Custom ERP Development.png" data={seo} />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -93,7 +99,7 @@ Why Choose SPM Global Technologies for Custom ERP Development
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <MediaImage name="Project Management.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Project Management </a>
@@ -109,7 +115,7 @@ Why Choose SPM Global Technologies for Custom ERP Development
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <MediaImage name="Production Management.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Production Management</a>
@@ -125,7 +131,7 @@ Why Choose SPM Global Technologies for Custom ERP Development
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <Image src={dummyicon} alt="" />
                 </div>
                 <h5 className="nunito-font">
                   <a>Supply-Chain Management </a>
@@ -146,7 +152,7 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <MediaImage name="Knowledge Management.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Knowledge Management </a>
@@ -162,7 +168,7 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <MediaImage name="Document Management.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Document Management</a>
@@ -178,7 +184,7 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <MediaImage name="Data Analytics & Business Intelligence.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Data Analytics & Business Intelligence</a>
@@ -194,7 +200,7 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <MediaImage name="Sales & Marketing.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Sales & Marketing </a>
@@ -210,7 +216,7 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <MediaImage name="Finance Management & Accounting.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Finance Management & Accounting</a>
@@ -226,7 +232,7 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={bmc} alt="icon" />
+                <MediaImage name="Human Resource Management.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Human Resource Management  </a>
@@ -255,7 +261,8 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="services-box">
                 <div className="icon">
-                  <i className="flaticon-assets"></i>
+                <MediaImage name="Increased Effective Communication.png" data={seo} />
+
                 </div>
                 <h3 className="nunito-font">
                   <a>Increased Effective Communication</a>
@@ -275,7 +282,8 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="services-box">
                 <div className="icon">
-                  <i className="flaticon-mortgage"></i>
+                <MediaImage name="Helps Standardise Your Manufacturing Process.png" data={seo} />
+
                 </div>
                 <h3 className="nunito-font">
                   <a>Helps Standardise Your Manufacturing Process </a>
@@ -294,7 +302,7 @@ vendor management, inventory management, logistics management and control.</p>
             >
               <div className="services-box">
                 <div className="icon">
-                  <i className="flaticon-challenges"></i>
+                <MediaImage name="Workflow Visibility and Business Intelligence.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Workflow Visibility and Business Intelligence </a>
@@ -318,7 +326,7 @@ vendor management, inventory management, logistics management and control.</p>
             <h3><center>Our ERP Service Options </center> </h3>
               <div className="services-box">
                 <div className="icon">
-                  <i className="flaticon-gold-bar"></i>
+                <MediaImage name="Developing an ERP Module.png" data={seo} />
                 </div>
                
                 <h3 className="nunito-font">
@@ -344,7 +352,7 @@ vendor management, inventory management, logistics management and control.</p>
           
               <div className="services-box">
                 <div className="icon">
-                  <i className="flaticon-gold-bar"></i>
+                <MediaImage name="Developing a Complete ERP System.png" data={seo} />
                 </div>
                
                 <h3 className="nunito-font">
@@ -372,7 +380,8 @@ vendor management, inventory management, logistics management and control.</p>
            <h3><center>ERP Development Service Pricing Models </center> </h3>
               <div className="services-box">
                 <div className="icon">
-                  <i className="flaticon-gold-bar"></i>
+                <MediaImage name="Fixed Price Model.png" data={seo} />
+
                 </div>
                
                 <h3 className="nunito-font">
@@ -444,7 +453,7 @@ vendor management, inventory management, logistics management and control.</p>
                     data-aos-delay="300"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    •	Microsoft Azure
+                    	Microsoft Azure
                   </li>
                   <li
                     data-aos="fade-up"
@@ -495,18 +504,43 @@ vendor management, inventory management, logistics management and control.</p>
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={manWithSon} alt="man-with-son-image" />
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
 
+
+      
+
       <SubscribeStyle1 />
       <div className="border-tb" />
+      <Service1 />
+
       <FooterOne />
     </>
   );
 };
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=erp&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
+
+
 
 export default Services;
