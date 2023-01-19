@@ -6,15 +6,18 @@ import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
 
 
 import dummyimg from "@/public/images/dummy-img.png";
 import dummyicon from "@/public/images/dummy-icon.png";
 
-
-const Services = () => {
+const Services = ({ seo }) => {
   return (
     <>
+      <PageSeo seo={seo} pageName = "Salesforce Service Cloud" />
       <PageTitle page="ServiceNow" />
       <Navbar />
       <PageTopTitle
@@ -41,7 +44,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="Implementation Partner for ServiceNow Products.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -57,7 +60,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="ServiceNow Creater workflow.jpg" data={seo} />
               </div>
             </div>
 
@@ -81,7 +84,7 @@ const Services = () => {
                   data-aos-duration="1200"
                 >
                   <a className="btn-style-one dark-green-color" style={{ textAlign: "justify" }}>
-                    ServiceNow enables business organizations to unleash the true power of IT. It provides cloud-based platform for digitizing their IT workflows, which in turn helps them gamer benefits like modernizing their operations, and optimizing their costs…</a>
+                    ServiceNow enables business organizations to unleash the true power of IT. It provides cloud-based platform for digitizing their IT workflows, which in turn helps them gamer benefits like modernizing their operations, and optimizing their costs.</a>
                 </div>
                 <div
                   className="btn-box"
@@ -136,7 +139,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="ServiceNow Consultant.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -152,7 +155,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="ServiceNow Managed Services.jpg" data={seo} />
               </div>
             </div>
 
@@ -225,7 +228,7 @@ const Services = () => {
                   data-aos-duration="1200"
                 >
                   <a className="btn-style-one dark-green-color" style={{ textAlign: "justify" }}>
-                    Whether you need an as-is implementation or specific value-adds to the platform, as ServiceNow Vendors, our team is ready to handle your unique requirements for application integrations. With an extensive experience and proven track record, our experts have worked on several projects involving the migration of service management tools to ServiceNow, delivering client delight through reduced maintenance costs and improved efficiency of resources and assets. We also offer ServiceNow Training to our clients’ select workforce. That way, we empower our clients to make the most of this incredible solution. Our ServiceNow Support Services ensure faster turnaround and rectification of your technical issues at the earliest. </a>
+                    Whether you need an as is implementation or specific value-adds to the platform, as ServiceNow Vendors, our team is ready to handle your unique requirements for application integrations. With an extensive experience and proven track record, our experts have worked on several projects involving the migration of service management tools to ServiceNow, delivering client delight through reduced maintenance costs and improved efficiency of resources and assets. We also offer ServiceNow Training to our clients’ select workforce. That way, we empower our clients to make the most of this incredible solution. Our ServiceNow Support Services ensure faster turnaround and rectification of your technical issues at the earliest. </a>
                 </div>
               </div>
             </div>
@@ -247,5 +250,23 @@ const Services = () => {
     </>
   );
 };
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=servicenow&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 
 export default Services;
