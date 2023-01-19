@@ -6,16 +6,81 @@ import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
+import Accordion from "@/components/Accordion";
+
+
 
 
 import dummyimg from "@/public/images/dummy-img.png";
 import dummyicon from "@/public/images/dummy-icon.png";
 
 
-const Services = () => {
+
+{/* ------------------------------Faq Q/A--------------------------------- */ }
+const questionsAnswers = [
+  {
+    question: "Q1: What is Salesforce Integration Cloud?",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Answer: Salesforce Integration Cloud is a process to integrate your CRM with numerous other platforms and business apps.
+
+        <li>We offer Salesforce Integration Cloud customization and implementation services to help you apply business logic, integrate data, and have a robust user interface. </li>
+      </p>
+
+  },
+  {
+    question: "Q2: What Should You Consider While Choosing Salesforce Integration Cloud Service Provider?",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Consider the following factors while choosing Salesforce Integration Cloud Service.
+        <li>Has the Salesforce Integration Cloud Third-Party Vendor acquired authentication from Salesforce? </li>
+        <li>Does your Salesforce Integration Cloud Service Provider have adequate experience implementing the solution for businesses of all sizes and natures?  </li>
+        <li>Has your Salesforce Integration Cloud Vendor worked before with clients from various industries to customize and implement the solution?  </li>
+        <li>Does your Salesforce Integration Cloud Consultant have a Salesforce-Certified team to offer technical support?  </li>
+        <li>Does your vendor offer Salesforce Integration Cloud Trainings?   </li>
+
+      </p>
+  },
+  {
+    question: "Q3: What Are the Benefits of Working with Reputed Integration Cloud Third-Party Vendor?",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Here following are the benefits of working with a recognized third-party vendor for Salesforce Integration Cloud implementation:
+        <li>The vendor would have a team of experts to customize and deploy the solution considering your business-specific needs.</li>
+        <li>The third-party vendor would have extensive experience in implementing the solution. </li>
+        <li>The service provider would possess a team of Salesforce-Certified experts to train your IT team. </li>
+        <li>The consultant would offer technical support to address your technical difficulties in Salesforce Integration Cloud in time.</li>
+
+
+      </p>
+  },
+  {
+    question: "Q4: Is it Essential to Get Salesforce Integration Cloud Trainings from the Experts?",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Salesforce Integration Cloud Trainings help your workforce upgrade their skillsets to cope with the modern demands of expertise in the solutions you use for business activities. Adopting the new technology and technology-driven solutions becomes a fun-filled journey for the individuals acquiring Salesforce Trainings from industry experts.
+      </p>
+  },
+  {
+    question: "Q5: What Positive Influences Salesforce Integration Cloud Brings to Your Businesses? ",
+    answer:
+      <p className="w-100" style={{ textAlign: "justify" }}>Here are the benefits of implementing Salesforce Integration Cloud for your business: 
+        <li>• Understand your customers better through a complete view. </li>
+        <li>• Improve customer experience by deploying the solution for your activities. </li>
+        <li>• Improved productivity due to effective integration. </li>
+        <li>• Upgrade your data infrastructure. </li>
+        <li>• Better decision-making</li>
+      </p>
+  },
+  
+];
+{/* ------------------------------End Faq Q/A--------------------------------- */ }
+
+
+
+const Services = ({ seo }) => {
   return (
     <>
-      <PageTitle page="Salesforce Integration Cloud" />
+      <PageSeo seo={seo} pageName = "Salesforce Integration Cloud" />
       <Navbar />
       <PageTopTitle
         subTitle=""
@@ -26,6 +91,11 @@ const Services = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
+              <h3 className="nunito-font">
+              Introduction 
+                </h3>
+              <p style={{ textAlign: "justify" }}>In the modern digital era, information is wealth. Integrating databases from across various cloud-based systems to utilize them for your numerous business operations is challenging. Salesforce Integration Cloud allows you to integrate multiple app systems in real-time. Thus, it would be practically possible to apply business logic across app systems.
+                </p>
                 <p style={{ textAlign: "justify" }}>
                   Most importantly, Salesforce Integration Cloud allows you to make the most effective use of programmatic and declarative integration tools to simplify data integration across apps. Thus, the enablement of Integration Field Service allows for handling B2B and B2C operations effectively.</p>
                 <p style={{ textAlign: "justify" }}>Collaborating with the Salesforce Certified Third-Party Vendors to customize, deploy, and get training and technical support for the fantastic solution is a must. We serve as the most preferred Salesforce Integration Cloud Implementation Partners for our clients from across the globe.
@@ -38,7 +108,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="Salesforce integration cloud.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -54,7 +124,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="Data Integration.jpg" data={seo} />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -127,7 +197,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Enhanced Productivity.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   Enhanced Productivity
@@ -143,7 +213,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Effective enablement of work automation.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   Effective Enablement of Work Automation
@@ -159,7 +229,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Effective enablement of work automation.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   Modernized Data Infrastructure
@@ -272,7 +342,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={dummyimg} alt="" />
+              <MediaImage name="Significance of Salesforce Integration Cloud Service Providers.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -292,7 +362,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Technical Expertise.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Technical Expertise</a>
@@ -307,7 +377,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Extensive Domain Experience.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Extensive Domain Experience</a>
@@ -322,7 +392,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="In-Time Implementation.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>In-Time Implementation</a>
@@ -338,7 +408,7 @@ const Services = () => {
             >
               <div className="services-box">
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Prompt Technical Support.png" data={seo} />
                 </div>
                 <h3 className="nunito-font">
                   <a>Prompt Technical Support</a>
@@ -429,11 +499,53 @@ const Services = () => {
         </div>
       </div>
 
+
+      <div className="faq-area pb-100">
+        <div className="container">
+          <div className="section-title">
+            <span className="sub-title dark-green-color">
+
+            </span>
+            <h2 className="nunito-font">
+              Frequently Asked Questions
+            </h2>
+          </div>
+          <div className="row align-items-center">
+            <div className="col-lg- col-md-12">
+              <div className="faq-accordion">
+                <div className="accordion" id="faqAccordion">
+                  <Accordion questionsAnswers={questionsAnswers} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <SubscribeStyle1 />
       <div className="border-tb" />
       <FooterOne />
     </>
   );
 };
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=salesforce-integration-cloud&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 
 export default Services;
