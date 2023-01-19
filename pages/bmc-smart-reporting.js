@@ -7,6 +7,9 @@ import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import Accordion from "@/components/Accordion";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
 
 import SupportServices from "@/public/images/Support-Services.jpg";
 import Reportinfprocesses from "@/public/images/Reportinf-processes.png";
@@ -67,11 +70,11 @@ const questionsAnswers = [
   },
 ];
 
-
-const Services = () => {
+const Services = ({ seo }) => {
+  
   return (
     <>
-      <PageTitle page="BMC Smart Reporting" />
+      <PageSeo seo={seo} pageName = "BMC Smart Reporting" />
       <Navbar />
       <PageTopTitle
         subTitle=""
@@ -98,7 +101,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={SupportServices} alt="" />
+              <MediaImage name="BMC Smart Reporting Support Services.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -273,8 +276,8 @@ const Services = () => {
                 <div className="goal-text">
 
                   <ul className="overview-list">
-                    <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '300px' }}>
-                      <i><Image src={dummyicon} alt="" /></i>
+                    <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '430px' }}>
+                    <MediaImage name="Deployment Functionalities1.png" data={seo} />
                       <h3>Deployment Functionalities</h3>
                       <p><strong>1.</strong> Available on enterprise</p>
                       <p><strong>2.</strong> Available on SaaS environment</p>
@@ -283,9 +286,9 @@ const Services = () => {
                     <li
                       data-aos="fade-up"
                       data-aos-duration="1200"
-                      style={{ height: '300px' }}
+                      style={{ height: '430px' }}
                     >
-                      <i><Image src={dummyicon} alt="" /></i>
+                      <MediaImage name="Self Services Reporting Functionalities1.png" data={seo} />
                       <h3>Self Service Reporting Functionalities</h3>
                       <p><strong>1.</strong> Easy report creation with drag & drop facility</p>
                       <p><strong>2.</strong> Rich data visualization</p>
@@ -300,8 +303,8 @@ const Services = () => {
                 <div className="goal-text">
 
                   <ul className="overview-list">
-                    <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '300px' }}>
-                      <i><Image src={dummyicon} alt="" /></i>
+                    <li data-aos="fade-up" data-aos-duration="1200" style={{ height: '430px' }}>
+                    <MediaImage name="Improved Collaboration Functionalities1.png" data={seo} />
                       <h3>Improved Collaboration Functionalities</h3>
                       <p><strong>1.</strong> Broadcasting of reports</p>
                       <p><strong>2.</strong> Commenting on reports</p>
@@ -312,9 +315,10 @@ const Services = () => {
                     <li
                       data-aos="fade-up"
                       data-aos-duration="1200"
-                      style={{ height: '300px' }}
+                      style={{ height: '430px' }}
                     >
-                      <i><Image src={dummyicon} alt="" /></i>
+                      <MediaImage name="Administration Functionalities2.png" data={seo} />
+
                       <h3>Administration Functionalities</h3>
                       <p><strong>1.</strong> Custom reports/dashboards creation</p>
                       <p><strong>2.</strong> Out-of-the-box KPI metrics for quick assessment</p>
@@ -538,5 +542,23 @@ const Services = () => {
     </>
   );
 };
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=bmc-smart-reporting&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 
 export default Services;
