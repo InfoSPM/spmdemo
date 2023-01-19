@@ -9,6 +9,7 @@ import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 
 
+
 import event from "@/public/images/event.jpg";
 import itsm from "@/public/images/itsm.jpg";
 import bmcheliximplementation from "@/public/images/bmcheliximplementation.jpg";
@@ -111,7 +112,7 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <MediaImage name="itsm.jpg" data={seo} />
+              <MediaImage name="BMC-Helix-ITSM-a-robust-services-management-platforms-revolutionizing-IT.png" data={seo} />
               </div>
             </div>
           </div>
@@ -127,7 +128,7 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
             >
               <div className="goal-image">
-                <MediaImage name="bmcheliximplementation.jpg" data={seo} />
+                <MediaImage name="BMC-Helix-ITSM-Scenario-Supporting-the-development-of-BMC-Helix-ITSM.png" data={seo} />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -267,7 +268,7 @@ const Services = ({ seo }) => {
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                  <Image src={change} alt="" />
+                <MediaImage name="Change-releasa-management.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Change Release Management</a>
@@ -315,7 +316,7 @@ const Services = ({ seo }) => {
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                  <Image src={Knowledge} alt="" />
+                <MediaImage name="knowledge-management.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Knowledge Management</a>
@@ -393,6 +394,8 @@ const Services = ({ seo }) => {
           </div>
         </div>
       </div>
+
+      
 
       <div className="faq-area pb-100">
         <div className="container">
