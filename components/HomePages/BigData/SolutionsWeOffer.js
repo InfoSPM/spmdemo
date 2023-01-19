@@ -127,7 +127,7 @@ const CaseStudies = () => {
                                 <Image src={ecommerce} alt="icon" />
                             </div>
                             <h3 className="nunito-font">
-                                <a>e-Commerce</a>
+                                <a>E-Commerce</a>
                             </h3>
                             <p>
                                 Take your product range to buyers on a global scale using our custom eCommerce portals and apps.
@@ -246,7 +246,7 @@ const CaseStudies = () => {
                             <p>
                                 Make perfect decisions by analyzing a huge amount of data flowing through various directions by adopting our Data Analytics Solutions.
                             </p>
-                            <Link href="/data-analytics">
+                            <Link href="/analytics">
                                 <a className="link-btn">
                                     Learn More <i className="bx bx-chevron-right"></i>
                                 </a>

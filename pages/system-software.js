@@ -37,11 +37,11 @@ import MediaImage from "../components/Common/Media";
 const Services = ({ seo }) => {
   return (
     <>
-     <PageSeo seo={seo} pageName = "System & Software" />
+     <PageSeo seo={seo} pageName = "System And Software" />
       <Navbar />
       <PageTopTitle
         subTitle=""
-        title="System & Software" />
+        title="System And Software" />
 
       <div className="goal-area ptb-100">
         <div className="container">
@@ -68,7 +68,8 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             >
               <div className="goal-image style-two">
 
-              <Image src={dummyimg} alt="" />
+              <MediaImage name="Software Service Portfolio.png" data={seo} />
+
               </div>
             </div>
           </div>
@@ -80,11 +81,11 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
           <div className="row align-items-center">
             <div
               className="col-lg-6 col-md-12"
-              data-aos="fade-up"
+              data-aos="zoom-out-right"
               data-aos-duration="1200"
             >
               <div className="goal-image">
-              <Image src={dummyimg} alt="" />
+              <MediaImage name="Embedded Services.jpg" data={seo} />
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -135,7 +136,7 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
               <h3>Our Approach to System & Software Services </h3>
 
                 <ul className="overview-list">
-                  <li data-aos="fade-up" data-aos-duration="1200">
+                  <li data-aos="zoom-out-right" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
                     
                     <h4>Analyse </h4>
@@ -143,7 +144,7 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                     </p>
                   </li>
                   <li
-                    data-aos="fade-up"
+                    data-aos="zoom-out-right"
                     data-aos-duration="1200"
                     data-aos-delay="200"
                   >
@@ -153,7 +154,7 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                     We adopt agility to develop excellent solutions. We work per a well-thought product roadmap and assess the progress at every stage to ensure the best quality and timely release.
                     </p>
                   </li>
-                  <li data-aos="fade-up" data-aos-duration="1200">
+                  <li data-aos="zoom-out-right" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
                     <h3>Implement </h3>
                     <p className="w-100" style={{ textAlign: "justify" }}>
@@ -175,7 +176,7 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
 
                 <ul className="overview-list">
                   <li
-                    data-aos="fade-up"
+                    data-aos="zoom-out-down"
                     data-aos-duration="1200"
                     data-aos-delay="100"
                   >
@@ -186,7 +187,7 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                     </p>
                   </li>
                   <li
-                    data-aos="fade-up"
+                    data-aos="zoom-out-down"
                     data-aos-duration="1200"
                     data-aos-delay="200"
                   >
@@ -197,7 +198,7 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                     </p>
                   </li>
                   <li
-                    data-aos="fade-up"
+                    data-aos="zoom-out-down"
                     data-aos-duration="1200"
                     data-aos-delay="100"
                   >
@@ -206,7 +207,7 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                     <p className="w-100" style={{ textAlign: "justify" }}>We ensure service efficiency by adding value to the entire project execution, from ideation, architecture set-up, development, and development of the system and software solutions for you. Our most competitive pricing keeps us ahead of others. </p>
                   </li>
                   <li
-                    data-aos="fade-up"
+                    data-aos="zoom-out-down"
                     data-aos-duration="1200"
                     data-aos-delay="100"
                   >
@@ -237,12 +238,12 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
           <div className="row justify-content-center">
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="flip-down"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '1000px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Framework.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Framework </a>
@@ -284,12 +285,12 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-down"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '1000px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Container Technologies.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Container Technologies</a>
@@ -310,12 +311,12 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-right"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Serverless Technologies.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Serverless Technologies </a>
@@ -335,12 +336,12 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-out-down"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Orchestrators.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Orchestrators </a>
@@ -361,12 +362,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
 
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-left"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Metric Generation and Collection.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>Metric Generation and Collection </a>
@@ -387,12 +389,12 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
 
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Tracing.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Tracing </a>
@@ -410,12 +412,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
 
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="flip-up"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Graph Tools & Databases.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>Graph Tools & Databases </a>
@@ -435,12 +438,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
 
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="flip-down"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="NoSQL & Indexing Tools.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>NoSQL & Indexing Tools  </a>
@@ -460,12 +464,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="flip-right"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Programming Languages.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>Programming Languages </a>
@@ -490,12 +495,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Messaging Tools.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>Messaging Tools </a>
@@ -519,12 +525,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="flip-down"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Big Data Tools.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>Big Data Tools </a>
@@ -547,12 +554,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Techniques.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>AI/ML Techniques </a>
@@ -570,12 +578,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="slide-right"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Cloud Services.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>Cloud Services</a>
@@ -599,12 +608,13 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-out"
               data-aos-duration="1200"
             >
               <div className="single-services-item style-two" style={{ height: '900px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="High-Performance User Interfaces Authentication & Authorization.png" data={seo} />
+
                 </div>
                 <h5 className="nunito-font">
                   <a>High-Performance User Interfaces Authentication & Authorization </a>

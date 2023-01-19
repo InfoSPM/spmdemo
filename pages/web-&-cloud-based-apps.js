@@ -6,15 +6,20 @@ import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
+
 
 
 import dummyimg from "@/public/images/dummy-img.png";
 import dummyicon from "@/public/images/dummy-icon.png";
 
 
-const Services = () => {
+const Services = ({ seo }) => {
   return (
     <>
+    <PageSeo seo={seo} pageName = "Web & Cloud-based Applications" />
       <PageTitle page="Web & Cloud-based Applications" />
       <Navbar />
       <PageTopTitle
@@ -55,7 +60,7 @@ const Services = () => {
             >
               <div className="single-services-item style-two" style={{ height: '500px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <Image src={dummyimg} alt="" />
                 </div>
                 <h5 className="nunito-font">
                   <a>We Add Value to Your Business</a>
@@ -305,5 +310,23 @@ const Services = () => {
     </>
   );
 };
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=web-&-cloud-based-apps&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 
 export default Services;
