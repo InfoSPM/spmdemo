@@ -192,9 +192,7 @@ Our software testing and QA experts don’t let any aspect of your software prod
           </div>
         </div>
 
-        <div className="shape8">
-          <Image src={shapeImg8} alt="shape" />
-        </div>
+        
       </div>
 
       <div className="services-area with-top-border pt-100 pb-75">
