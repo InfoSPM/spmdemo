@@ -17,44 +17,38 @@ import dummyicon from "@/public/images/dummy-icon.png";
 {/* ------------------------------Faq Q/A--------------------------------- */ }
 const questionsAnswers = [
   {
-    question: "Q1:What is SAP CRM System? ",
+    question: "Q1:Is SAP BusinessObjects a reporting tool?",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>Answer: SAP Customer Relationship Management is an integrated customer relationship management module developed by SAP. It helps any organization to accomplish their business goals and empowers them to perform all Customer Relationship tasks efficiently. CRM is a fundamental component for building business strategy for medium and large scale organizations. It also aids in recognising the customers, their needs and service efficiently. 
+      <p className="w-100" style={{ textAlign: "justify" }}>Answer: SAP BusinessObjects is a BI suite of tools that helps for data reporting, sharing, and visualization. On-premise BI excellence SAP BO Platform transforms the available data into valuable insights accessible anytime from anywhere.  
 
         
       </p>
 
   },
   {
-    question: "Q2: Can I create my CRM?",
+    question: "Q2: Do you have expertise in the integration of the latest version of SAP BO?",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>Establishing a CRM from scratch can act as beneficial for the business. Most noteworthy, If you are seeking out-of-the-box CRM features, they are typically designed for a particular department like sales or marketing. In case one wants to create their CRM from scratch, it gives the liberty to choose what departments to focus on. 
+      <p className="w-100" style={{ textAlign: "justify" }}>SAP BI 4.3 – version 14.3.0.3532 was released on June 13, 2020. It is the biggest evolution of SAP BI 4.3 for enhanced user experience. We have all the capabilities to leverage the new features of the latest SAP BI 4.3 – version like Fiori Launchpad, SAP HANA Online Mode, UI Customization etc.  
     
       </p>
   },
   {
-    question: "Q3:What is the difference between ERP and CRM?",
+    question: "Q3:What is the use of Web Intelligence feature of SAP BusinessObjects?",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>While the whole organization may rely on both ERP and CRM systems, the significant difference between ERP and CRM is that ERP is required for financial data and the finance department, whereas CRM is customer data utilised by the sales and customer service departments.
-        {/* <li>earns up to $150,000/year. Almost 3.3 million new jobs for certified Salesforce are estimated to come on the surface by 2022.  .</li> */}
+      <p className="w-100" style={{ textAlign: "justify" }}>Web Intelligence (Webi) is a web browser. It allows performing produce customized reports, analyze, and share the reports on SAP Webi or export these reports to Excel/PDF. 
       </p>
   },
   {
-    question: "Q4: What are the 5 benefits of CRM? ",
+    question: "Q4:What is SAP BusinessObjects Explorer in SAP BusinessObjects BI",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>Various companies adopt SAP HANA to supervise the manufacture and distribution of diverse products across several countries. Fascinatingly, some well-known firms that practice SAP HANA include Citrix, ConAgra, Audi AG, BASF North America, Burger King etc.
-        <li> 1. Increased Revenue and Decreased Overhead.  </li>
-        <li> 2.Improved Customer Satisfaction.  </li>
-        <li> 3.Marketing Optimization.   </li>
-        <li> 4. Increased Collaboration and Coordination.  </li>
-        <li> 5.Improved Data Insight and Analytics.   </li>
-      </p>
+      <p className="w-100" style={{ textAlign: "justify" }}>The latest version of SAP BusinessObjects contains SAP BusinessObjects Explorer. It is a data-exploring tool designed. It facilitates the users to explore volumetric data available at various sources and to create data visualization reports that could be shared with intended users to help them make well-informed decisions.        </p>
   },
   
+  
   {
-    question: "Q5: Is SAP a good CRM?",
+    question: "Q5: Can I view Lumira documents on Launchpad in SAP BusinessObjects",
     answer:
-      <p className="w-100" style={{ textAlign: "justify" }}>  SAP CRM is a pleasure to use, due to its reliability and the ease it offers to integrate with other SAP modules, such as the ERP, business warehouse etc. The ease of usage, as well as the ability to help track customer relationships across multiple channels are quite likeable.  </p>
+      <p className="w-100" style={{ textAlign: "justify" }}>  Yes, you can view Lumira documents in the BI Launchpad provided you have installed Lumira Add On to SAP BusinessObjects BI platform.   </p>
   },
   
 ];
@@ -67,11 +61,11 @@ const questionsAnswers = [
 const Services = () => {
   return (
     <>
-      <PageTitle page="SAP CRM" />
+      <PageTitle page="SAP Business Objects " />
       <Navbar />
       <PageTopTitle
         subTitle=""
-        title="SAP CRM " />
+        title="SAP Business Objects " />
 
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
@@ -79,23 +73,25 @@ const Services = () => {
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
               <h3 className="nunito-font">
-              SAP CRM   
+              SPM Global Technologies- A SAP Business Objects Consultant & Managed Services Provider     
                 </h3>
-                <p style={{ textAlign: "justify" }}>SAP CRM is one of the fundamental modules in an organization that ventures with managing customers adequately and efficiently. In the current competitive market environment, companies are obliged to make changes in a dynamic environment and consider the key activities related to customer service. 
+                <p style={{ textAlign: "justify" }}>SAP BusinessObjects BI is a comprehensive business intelligence suite that facilitates data visualization, sharing, and reporting to make data-driven decisions. SPM Global Technologies, as being the pioneer SAP BusinessObjects service providers with years’ experience, provides objective-oriented solutions to integrate SAP Business objects.  
                 </p>
 
-                <p style={{ textAlign: "justify" }}>The SAP CRM application was originally an integrated on-premises customer relationship management (CRM) software manufactured by SAP SE which targeted business software requirements for marketing, sales and service of midsize and big organizations in every industry and sector. 
+                <h3 className="nunito-font">
+                What is SAP BusinessObjects Used?     
+                </h3>
+
+                <p style={{ textAlign: "justify" }}> Also known as SAP BO, the world-class enterprise software platform empowers enterprises for simplified real-time reporting and metric-based analytical business intelligence (BI). Built-in several reporting applications help the users to access and explore data, conduct analytics, information sharing and creating reports.
 
                 </p>
 
 
-                <p style={{ textAlign: "justify" }}>SAP CRM is a part of the SAP ERP (Enterprise Resource Planning) business suite and is applied to implement customize business processes related to Customer Relationship Management CRM and to integrate with SAP and non–SAP systems. SAP CRM helps an organization to accomplish customer satisfaction by adhering to the service expectation and rendering products expected by customers.   
+                <p style={{ textAlign: "justify" }}>Better decisions, driven by the SAP BusinessObjects, help the businesses to perform better through optimized operations. As an SAP Business Objects consultant, we help you implement SAP business intelligence solutions to improve competencies through improved operations.       
 
                 </p>
 
-                <p style={{ textAlign: "justify" }}>SAP CRM incorporates the following sub-modules that support key functions of Customer Relationship Management:      
-
-                </p>
+                
 
                 
 
@@ -180,34 +176,68 @@ const Services = () => {
               <div className="goal-content">
                 
                 <h3 className="nunito-font">
-                What do SAP CRM services have to offer?     
+                What We Offer As SAP BusinessObjects Consultant & SAP BO 3rd- Party Vendor:     
                 </h3>
-                <p style={{ textAlign: "justify" }}>SAP CRM offers a comprehensive end-to-end solution for business. It helps to increase customer loyalty and boost profitability. Once you choose this service, it allows the service professional to execute basic tasks such as a service agreement, contracts, service order management, etc. 
+                <p style={{ textAlign: "justify" }}>Since its introduction, SAP BusinessObjects is beefing up its globally acknowledged technical excellence in data analytics roster with time-tested effectiveness and user-friendliness of HANA, Lumira, and Cloud for Analytics etc. As the leading SAP Business Objects service providers and SAP BO consultant, we offer a range of tailor-made services to address your particular concerns for BI. 
                 </p>
 
-                <p style={{ textAlign: "justify" }}>SPM Global Technologies is one of the best SAP CRM service providers, which has expertise in executing SAP CRM for any business model and transforms them. It has been a game-changer when it comes to software and related applications. We understand SAP technologies in and out and CRM is one of the core suites that we have extensively worked upon.   
+                <p style={{ textAlign: "justify" }}>The SAP BusinessObjects BI experts at SPM Global Technologies maximize the software investment with maximum cost savings and custom-to applications service offerings. You can trust the capabilities of SPM Global to deliver the industry-best SAP BusinessObjects BI services for-     
                 </p>
 
-                <p style={{ textAlign: "justify" }}>CRM can be a complex software suite to be understood and implemented. Most noteworthy, the usability is quite high, the skilled software professionals can transform the present models and assist with SAP CRM applications and understanding. With our flexible approach and technical knowledge of the subject matter, the complete transformation process can be a smooth one for any business.  
-                </p>
+                <ul className="overview-list">
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Migration and conversion  
+                  </li>
 
 
-                <div
-                  className="btn-box"
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                >
-                  <a className="btn-style-one dark-green-color" style={{ textAlign: "justify" }}>
-                  <h3 className="nunito-font">
-                  What does SAP consultants do?   
-                </h3>
-                SAP Consultant is a person who examines and produces new computer software. They present customized SAP solutions and integrate them with the existing IT program to facilitate the work in various domains of finance, human capital, operations, risk and compliance, customer, etc. using the SAP technologies.</a>
-                </div>
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP data warehouse modeling                   </li>
+                  
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP BO modeling                   </li>
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP ERP integration 
+                  </li>
+                  
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Platform deployment                   </li>
+                  
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Data quality management & data governance  </li>
+                  
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Custom to application reporting & analysis  </li>
+                  
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Maintenance & distribution    </li>
+
+                    
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Gap analysis and health check   </li>
+                  </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+
+
 
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
@@ -215,37 +245,75 @@ const Services = () => {
             <div className="col-lg-6 col-md-12">
               <div className="goal-content style-two">
                 <h3 className="nunito-font">
-                What are the key features of CRM? 
+                Nine Benefits of SAP Business Objects Managed Services:  
                 </h3>
-                <p style={{ textAlign: "justify" }}>Currently, the customer relationship management systems include basic CRM functions, along with advanced CRM capabilities that go far beyond the contact sorting and filing functions of the past. Presently businesses can streamline all their customer-facing processes and establish relationships by locating the customer at the centre of the sales, marketing, commerce, and service activities.   </p>
+                <p style={{ textAlign: "justify" }}>Formally known as BOBJ, SAP BusinessObjects BI deploys business intelligence to projects to help the businesses get predictive analytics without depending on data analysts. Instead of storing data at an application level, the front-end BI platform SAP BO integrates data available at different back-end sources. Is it good for me to integrate SAP BusinessObjects solution? How will SAP Business Objects support services help my organization to perform better?    </p>
                 
-                <span>The integrated automated support and scalable performance metrics help the sales teams and organizations both.</span>
+                <span>The following nine key benefits of SAP BusinessObjects help you decide to outsource SAP Business Objects managed services with the confidence of getting justified ROI: .</span>
                 <ul className="overview-list">
                   <li data-aos="fade-up" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    They are required to understand the business from a management reporting perspective. 
+                    Easy to use for end-users because of drag and drop facility  
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Later map the customer needs in SAP HANA. 
+                    Information insights with clarity through objective-oriented reports creations  
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    And train users for using the SAP system. 
+                    Better Streamlined BI operations driven by metrics- oriented decisions
                   </li>
                   <li
                     data-aos="fade-up"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    Lastly, design or enhance the system for the best data processing performance
+                    Integrated robust security 
                   </li>
+
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Uniformed information for everyone accessible from multiple devices                    </li>
+
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Strengthens collaboration in team members                    </li>
+
+
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Insights to continually improve business resiliency                   </li>
+
+
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Continually improves competitiveness with power of data                   </li>
+
+
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Prediction to minimize risk                     </li>
                   
                 </ul>
               </div>
@@ -264,158 +332,133 @@ const Services = () => {
         </div>
       </div>
 
-      
-
-
-
-
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
-          <div className="row justify-content-center justify-content-center">
-          
-          
+          <div className="row align-items-center">
             <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="flip-down"
+              className="col-lg-6 col-md-12"
+              data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <Image src={dummyicon} alt="" />
-                </div>
-                <h5 className="nunito-font">
-                Lead management
-                </h5>
-                <p style={{ textAlign: "justify" }}>Identity, score, and track lead through the pipeline to transform more prospective customers into buyers. With CRM, one can integrate lead generation, pipeline management, and lead nurturing activities.</p>
+              <div className="goal-image">
+              <Image src={dummyimg} alt="" />
               </div>
             </div>
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="flip-down"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <Image src={dummyicon} alt="" />
+            <div className="col-lg-6 col-md-12">
+              <div className="goal-content">
+                
+                <h3 className="nunito-font">Career-Oriented SAP BusinessObjects Training      
+                </h3>
+                <p style={{ textAlign: "justify" }}>We have in-house highly trained skills to maximize the benefits of SAP BusinessObjects tools to help you achieve sustainable growth at the least cost. Get in touch with our SAP BusinessObjects experts for customized integration of BusinessObjects Dashboard, Lumira, BusinessObjects Design Studio, BusinessObjects Analysis MS Office, Crystal Reports, BusinessObjects BI Platform, BO Mobile, BusinessObjects Explorer etc.  
+                </p>
 
-                </div>
-                <h5 className="nunito-font">
-                Interaction management
-                </h5>
-                <p style={{ textAlign: "justify" }}>Track all of the customer interactions, including emails, phone conversations, social media posts, and chat sessions to gain a 360° view of each customer and produce a constant cross-channel exposure.</p>
+                <p style={{ textAlign: "justify" }}>As being the best performing SAP Business objects third party vendor, we conduct comprehensive product-oriented SAP BusinessObjects trainings also. You can choose the best from a range of SAP BusinessObjects training for your team to start a journey towards becoming an SAP empowered organization. SAP BusinessObjects Business Intelligence training helps your team to interpret collected data and to make data-driven business decisions. Five top SAP BusinessObjects trainings, we conduct to help you secure a globally recognized SAP BusinessObjects BI certification, are     
+                </p>
+
+                <ul className="overview-list">
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP for Beginners  
+                  </li>
+
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP Business Analytics Essential                 </li>
+                  
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP Basis Essential                  </li>
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP Project Essentials- SAP S/4HANA & SAP ERP                   </li>
+                  
+
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    SAP Analytics Cloud                   </li>
+                
+                  
+                  </ul>
               </div>
             </div>
-
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="flip-down"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <Image src={dummyicon} alt="" />
-
-                </div>
-                <h5 className="nunito-font">
-                Contact management
-                </h5>
-                <p style={{ textAlign: "justify" }}>Securely save the customer information, including names, contact details, social media accounts, and communications preferences in a focal database that the entire team can obtain in real-time.</p>
-              </div>
-            </div>
-
-
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="flip-down"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <Image src={dummyicon} alt="" />
-
-                </div>
-                <h5 className="nunito-font">
-                Customer analytics
-                </h5>
-                <p style={{ textAlign: "justify" }}>Surface the accurate insights at the correct time with on-demand CRM reporting and interactive dashboards. One can predict what the customers want, personalize the experiences, and practice the right action at the moment. </p>
-              </div>
-            </div>
-
-
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="flip-down"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <Image src={dummyicon} alt="" />
-
-                </div>
-                <h5 className="nunito-font">
-                Secure, mobile CRM
-                </h5>
-                <p style={{ textAlign: "justify" }}>All the CRM features ought to be available anytime, anywhere, from any device. In addition to this, the cloud CRM should assist in streamlining the security, data privacy, and GDPR compliance requirements. </p>
-              </div>
-            </div>
-
-
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="flip-down"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <Image src={dummyicon} alt="" />
-
-                </div>
-                <h5 className="nunito-font">
-                Workflow automation
-                </h5>
-                <p style={{ textAlign: "justify" }}>Automate repetitious, hand-operated tasks such as contact record data entry and harness the power of embedded AI and machine learning to implement chatbot-based interactions on social media and in messaging apps.  </p>
-              </div>
-            </div>
-            
-            <div
-              className="col-lg-12 col-md-6 col-sm-6"
-              data-aos="flip-down"
-              data-aos-duration="1200"
-            >
-              <div className="services-box">
-                <div className="icon">
-                  {/* <Image src={dummyicon} alt="" /> */}
-                  <Image src={dummyicon} alt="" />
-
-                </div>
-                <h5 className="nunito-font">
-                CRM integrations:
-                </h5>
-                <p style={{ textAlign: "justify" }}> Blend the CRM system with the website, email and calendar platforms, accounting and billing software, customer surveys, document management, and e-signatures, to do everything in one place.  </p>
-              </div>
-            </div>
-            
-            
-            
-           
-            
-            
-            
           </div>
         </div>
       </div>
 
+      <div className="services-area with-top-border pt-100 pb-75">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12">
+              <div className="goal-content style-two">
+              <h3 className="nunito-font">
+              Why Choose SPM Global Technologies As SAP Businessobjects Services Provider & Consultant:                  </h3>
+                <p style={{ textAlign: "justify" }}>We are providing quality-best SAP BusinessObjects services professionally planned as per the client’s requirements for over the years. Our experts analyze the requirements, scope for change, and constraints before charting out the best roadmap for SAP BusinessObjects integration.    
+                </p>
+
+                <p style={{ textAlign: "justify" }}> As a prominent ITSM company in India, we have the best-experienced SAP BusinessObjects specialists with insights to – what is required, why it is required, what should be delivered, how should be delivered, how much it will be beneficial. Over the years, SPM Global Technologies has become a preferred choice of businesses looking for a dependable SAP BusinessObjects service provider because we offer-
+
+                </p>
+
+                <ul className="overview-list">
+                  <li data-aos="fade-up" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    Low-cost SAP BusinessObjects consultancy </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Turnkey SAP BusinessObjects solutions </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Comprehensive support services </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Wide range of objective-oriented/tool oriented SAP BI solution  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Virtual SAP BusinessObjects trainings  </li>
+                  <li
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                  >
+                    <i className="flaticon-draw-check-mark"></i>
+                    Competitively-priced support and services   </li>
+                 
+
+                 
+                </ul>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 col-md-12"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="goal-image style-two">
+              <Image src={dummyimg} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
 <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <h2 className="nunito-font">What are the five biggest benefits of CRM?  </h2>
-            <span className="sub-title purple-color">There are countless ways a CRM system can help to capture the most out of customer interactions. The minutest refinement can boost customer retention and give profits through the roof. Imagine what the five biggest CRM benefits can do: </span>
+            <h2 className="nunito-font">SAP BusinessObjects 4.3 Sp1 Features Leveraged by SAP BusinessObjects Vendors:     </h2>
+            <span className="sub-title purple-color">SAP BusinessObjects BI 4.3 was released with perspectives of users and Admin. SAP BusinessObjects is being embraced across the world to transform a business into an Intelligent Enterprise. The best in class SAP BO BI features, leveraged by the hired SAP Business Objects third-party vendor, integrate required changes in productivity, improve customer experience through better-guided end-to-end processes, and inspire workforce engagement. Twelve SAP BusinessObjects BI features that make it #1 choice of more than 200 M cloud users in 180 countries are:  </span>
           </div>
           <div className="row align-items-center">
             <div className="col-lg-12 col-md-12">
@@ -424,29 +467,61 @@ const Services = () => {
                 <ul className="overview-list">
                   <li data-aos="zoom-in-right" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Improved customer experience</h3>
-                    <p style={{ textAlign: "justify" }}>Give contact centre reps and field service technicians a 360° view of customers, so they can produce personalized customer adventures and determine issues immediately</p>
+                    <h3>The Best Analytics Reporting Tool: Web Intelligence application automates routine tasks and strengthens customer relationship.</h3>
                   </li>
                   <li
                     data-aos="zoom-in-right"
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Work smarter with better collaboration</h3>
-                    <p style={{ textAlign: "justify" }}>Share information across teams, departments, and internal and external stakeholders with collaborative CRM to better serve customers at every touchpoint. </p>
+                    <h3>Scalable Architecture: Server clustering and cloning helps the SAP BO experts to manage users easily.  </h3>
                     
                   </li>
+
                   <li data-aos="zoom-in-right" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Higher sales revenue</h3>
-                    <p style={{ marginBottom: '15px' }}>Boost pipeline visibility and market more with integrated tools for sales force automation, lead management, forecasting, cross-selling, e-commerce etc.</p>
-                    
+                    <h3>SAP HANA Integration: It allows use of big data for quick predictions based on real-time insights.    </h3>
+                  </li>
+
+                  <li data-aos="zoom-in-right" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Launchpad with Enterprise BI: BI Launchpad allows the users to access reports, storyboards, analytics documents, dashboards, etc.     </h3>
+                  </li>
+
+                  <li data-aos="zoom-in-right" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>Mobile BI: Users can access reports and insights on mobiles and tablets.   </h3>
+                  </li>
 
 
+                  <li data-aos="zoom-in-right" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>System Administration with Robust Security: SAP BO helps to keep Central Management Console the best secured.     </h3>
+                  </li>
+
+                  <li data-aos="zoom-in-right" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3> QaaWS (Query as a Web Service): It simplifies creating Universe queries and deployment of these  as a Web service.     </h3>
+                  </li>
+
+                  <li data-aos="zoom-in-right" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>  Design Studio: SAP BO Design Studio allows the users to develop interactive dashboards and applications using multiple data sources.    </h3>
+                  </li>
+
+                  <li data-aos="zoom-in-right" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3> SAP Lumira: It adds new dimension to self-service allowing the users to analyze data collection and to get relevant content.     </h3>
+                  </li>
+
+                  <li data-aos="zoom-in-right" data-aos-duration="1200">
+                    <i className="flaticon-draw-check-mark"></i>
+                    <h3>  Crystal Reports: Designed primarily to help individual users, small/medium sized companies for creating dynamic reports using data collected from different sources.  It offers a range of options for report formatting and presentation.    </h3>
                   </li>
                 </ul>
               </div>
             </div>
+
 
             <div className="col-lg-12 col-md-12">
               <div className="goal-text">
@@ -457,8 +532,7 @@ const Services = () => {
                     data-aos-duration="1100"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Greater process efficiency</h3>
-                    <p style={{ textAlign: "justify" }}>Help the sales, marketing, and service teams achieve more with less effort, by taking advantage of automated processes and scheduled follow-up prompts. </p>
+                    <h3>BO Universe: The metadata layer provides access to a range of data sources. </h3>
                     
                   </li>
                   <li
@@ -466,8 +540,7 @@ const Services = () => {
                     data-aos-duration="1200"
                   >
                     <i className="flaticon-draw-check-mark"></i>
-                    <h3>Increased customer retention</h3>
-                    <p style={{ textAlign: "justify" }}>Attract the customers with personalized service that acquires loyalty. Run real-time analytics to recognise the best offers, the right timing, and the optimal channel.</p>
+                    <h3>Tools for Each Case: A range of tools and applications with HTML-5 UI and iPad support.</h3>
                   </li>
                   
                 </ul>
