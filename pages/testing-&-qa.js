@@ -37,11 +37,11 @@ import dummyicon from "@/public/images/dummy-icon.png";
 const Services = ({ seo }) => {
   return (
     <>
-    <PageSeo seo={seo} pageName = "Testing And QA" />
+    <PageSeo seo={seo} pageName = "Testing And QA " />
       <Navbar />
       <PageTopTitle
         subTitle=""
-        title="Testing And QA" />
+        title="Testing And QA " />
 
       <div className="goal-area ptb-100">
         <div className="container">
