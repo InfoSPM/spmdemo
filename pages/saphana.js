@@ -7,6 +7,9 @@ import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
 
 
 
@@ -60,10 +63,11 @@ const questionsAnswers = [
 
 
 
-const Services = () => {
+const Services = ({ seo }) => {
+
   return (
-    <>
-      <PageTitle page="SAP HANA" />
+<>
+<PageSeo seo={seo} pageName = "SAP HANA" /> 
       <Navbar />
       <PageTopTitle
         subTitle=""
@@ -161,7 +165,7 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-              <Image src={dummyimg} alt="" />
+              <MediaImage name="Digital Services.png" data={seo} />
               </div>
             </div>
           </div>
@@ -356,6 +360,24 @@ const Services = () => {
   );
 };
 
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=sap-hana&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 
 
 
