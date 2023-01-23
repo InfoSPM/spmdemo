@@ -23,6 +23,10 @@ import Knowledge from "@/public/images/Knowledge.jpg";
 import helixdigitalworkplace from "@/public/images/helix-digital-workplace.jpg";
 import Assets from "@/public/images/Assets.jpg"
 import Configuration from "@/public/images/Configuration.jpg";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
+
 
 
 {/* ------------------------------Faq Q/A--------------------------------- */ }
@@ -80,10 +84,10 @@ const questionsAnswers = [
 ];
 {/* ------------------------------End Faq Q/A--------------------------------- */ }
 
-const Services = () => {
+const Services = ({ seo }) => {
   return (
     <>
-      <PageTitle page="System & Software" />
+     <PageSeo seo={seo} pageName = "System & Software" />
       <Navbar />
       <PageTopTitle
         subTitle=""
@@ -113,7 +117,8 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-                <Image src={itsm} alt="man-with-son-image" />
+
+              {/* <MediaImage name="itsm.jpg" data={seo} /> */}
               </div>
             </div>
           </div>
@@ -263,6 +268,8 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
               </div>
             </div>
           </div>
+
+          
         </div>
 
         <div className="shape8">
@@ -273,8 +280,8 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
           <div className="section-title">
-            <h2 className="nunito-font">What are the Features of BMC Helix ITSM?</h2>
-            <span className="sub-title purple-color">Several IT organizations are depending on ITSM services. BMC Helix ITSM has the following features:</span>
+            <h2 className="nunito-font">Technology We Use </h2>
+            {/* <span className="sub-title purple-color">Several IT organizations are depending on ITSM services. BMC Helix ITSM has the following features:</span> */}
 
           </div>
           <div className="row justify-content-center">
@@ -285,13 +292,44 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
             >
               <div className="single-services-item style-two">
                 <div className="icon">
-                  <Image src={event} alt="" />
+                  {/* <Image src={event} alt="" /> */}
                 </div>
                 <h5 className="nunito-font">
-                  <a>Event & Problem Management</a>
+                  <a>Framework </a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix Service Providers facilitate building and resolving events quickly through smart, contextual, and practical event matching. BMC Helix Support Services allow natural language, unshaped data access of tickets, and recommended techniques of solving issues in an accurate manner. BMC Helix Vendors make use of improved service analytics to drive efficiency.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>It helps to get lower call volumes with Omni-channel self-service, through BMC Helix Digital Workplace. Further, it makes the best use of agent productivity with modern User Interfaces. BMC Helix works with the best practices of ITIL (IT Infrastructure Library) with complete training and innovative ITIL procedures.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix Service Providers facilitate building and resolving events quickly through smart, contextual, and practical event matching. BMC Helix Support Services allow natural language, unshaped data access of tickets, and recommended techniques of solving issues in an accurate manner. BMC Helix Vendors make use of improved service analytics to drive efficiency.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}><li>Protractor  </li>
+                  <br></br>
+                  <li>Robot  </li>
+                  <br></br>
+                <li>Django  </li>
+                <br></br>
+                <li>Selenium </li>
+                <br></br>
+                <li>TestNG  </li>
+                <br></br>
+                <li>Pytest </li>
+                <br></br>
+                <li>AngularJS  </li>
+                <br></br>
+                <li>Warrior  </li>
+                <br></br>
+                <li>MySQL  </li>
+                <br></br>
+                <li>Cassandra</li>
+                <br></br>
+                <li>mongoDB</li>
+                <br></br>
+                <li>NodeJS </li>
+                <br></br>
+                <li>Databases   </li>
+                
+                
+                
+                </p>
+                
+
+                
               </div>
             </div>
             <div
@@ -304,10 +342,19 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={dealing} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>Dealing with Practical Problems</a>
+                  <a>Container Technologies</a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM integrates Artificial Intelligence for identifying clusters of recurring events. This helps spontaneous analysis, and reorganizing problem management. Further, this enables agents to emphasize challenge areas and decrease load of the management team.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Moreover, this facilitates automating tedious and manual problem management practices. Analysis through Advanced AI k algorithms helps to accurately identify clusters of recurring incidents. Hence, there is a seamless transfer from problem recommendation, and investigation to closure. Further, real-time incident correlation allows for resolving issues from the analyzed trends.
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM integrates Artificial Intelligence for identifying clusters of recurring events. This helps spontaneous analysis, and reorganizing problem management. Further, this enables agents to emphasize challenge areas and decrease load of the management team.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                  <li>Docker</li>
+                <br></br>
+                <li>Docker Plugins </li>
+                <br></br>
+                <li>Docker Extensions </li>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 </p>
               </div>
             </div>
@@ -321,10 +368,19 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={change} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>Change Release Management</a>
+                  <a>Serverless Technologies </a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM allows agile DevOps enterprises to maximize their process of delivery and quality of service. This feature enables a simplified change request process with a Drag-and-drop change calendar, automated contextual clash detection as well as making an impact analysis.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Added to that, there is improved risk analytics, programming routine changes without interaction along with the delivery of crucial information for the decision-making of the agents.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM allows agile DevOps enterprises to maximize their process of delivery and quality of service. This feature enables a simplified change request process with a Drag-and-drop change calendar, automated contextual clash detection as well as making an impact analysis.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Power BI  </li>
+                <br></br>
+                <li>Jupyter  </li>
+                <br></br>
+                <li>Instrumentations  </li>
+                <br></br>
+                <li>Addons </li>
+                <br></br>
+                </p>
               </div>
             </div>
             <div
@@ -337,12 +393,97 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={multicloud} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>BMC Helix Multi-Cloud Broker</a>
+                  <a>Orchestrators </a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>This feature helps to deliver a flawless service through multi-cloud environments. IT managers work in a flexible and configurable cloud-based multi-service. Using this facet, the IT project team members have effective collaboration with various BMC Helix ITSM Third-Party Vendors for resolving issues.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Helix ITSM Consultants integrate events, problems, and change management through significant agile development and audit performance competencies for evaluating service integrity. Moreover, Integrated Security Information & Event Management capabilities boost service and operational efficacies.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>This feature helps to deliver a flawless service through multi-cloud environments. IT managers work in a flexible and configurable cloud-based multi-service. Using this facet, the IT project team members have effective collaboration with various BMC Helix ITSM Third-Party Vendors for resolving issues.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Kubernetes  </li>
+                <br></br>
+                <li>MESOS  </li>
+                <br></br>
+                <li>Red Hat Openshift  </li>
+                <br></br>
+                <li>Swarm  </li>
+                <br></br>
+                </p>
               </div>
             </div>
+
+            <div
+              className="col-lg-6 col-md-6 col-sm-6"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="single-services-item style-two">
+                <div className="icon">
+                  <Image src={multicloud} alt="" />
+                </div>
+                <h5 className="nunito-font">
+                  <a>Metric Generation and Collection </a>
+                </h5>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>This feature helps to deliver a flawless service through multi-cloud environments. IT managers work in a flexible and configurable cloud-based multi-service. Using this facet, the IT project team members have effective collaboration with various BMC Helix ITSM Third-Party Vendors for resolving issues.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>DATADOG  </li>
+                <br></br>
+                <li>Dynatrace</li>
+                <br></br>
+                <li>OPENTRACING </li>
+                <br></br>
+                  
+
+               </p>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-6 col-md-6 col-sm-6"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="single-services-item style-two">
+                <div className="icon">
+                  <Image src={multicloud} alt="" />
+                </div>
+                <h5 className="nunito-font">
+                  <a>Tracing </a>
+                </h5>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>This feature helps to deliver a flawless service through multi-cloud environments. IT managers work in a flexible and configurable cloud-based multi-service. Using this facet, the IT project team members have effective collaboration with various BMC Helix ITSM Third-Party Vendors for resolving issues.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>JAEGER </li>
+                <br></br>
+                <li>OPENTRACING </li>
+                <br></br>
+
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-6 col-md-6 col-sm-6"
+              data-aos=
+              "fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="single-services-item style-two">
+                <div className="icon">
+                  <Image src={multicloud} alt="" />
+                </div>
+                <h5 className="nunito-font">
+                  <a>Graph Tools & Databases </a>
+                </h5>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>This feature helps to deliver a flawless service through multi-cloud environments. IT managers work in a flexible and configurable cloud-based multi-service. Using this facet, the IT project team members have effective collaboration with various BMC Helix ITSM Third-Party Vendors for resolving issues.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Gremlin </li>
+                <br></br>
+                <li>JanusGraph </li>
+                <br></br>
+                <li>Neo4j </li>
+                <br></br>
+               
+                </p>
+              </div>
+            </div>
+
             <div
               className="col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
@@ -353,10 +494,49 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={insights} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>Insights</a>
+                  <a>NoSQL & Indexing Tools  </a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM provides the insights to visualize cross-functional services as well as operational management. Powerful analytics and the automatic formation of natural language narratives enable users to get a quick insight into substantial data. In addition, IT professionals visualize data about Changes, Incidents, Metrics, Chatbot Conversations, Service Requests, Events, Capacity, etc. There are several exclusive visualizations in BMC Helix ITSM.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Further, you can get customized reports and dashboards and make use of the storyboard feature for producing slide shows with practical data through competent BMC Helix Training. You can also obtain automated insights based on the significance of data and collaborate in a flawless manner.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM provides the insights to visualize cross-functional services as well as operational management. Powerful analytics and the automatic formation of natural language narratives enable users to get a quick insight into substantial data. In addition, IT professionals visualize data about Changes, Incidents, Metrics, Chatbot Conversations, Service Requests, Events, Capacity, etc. There are several exclusive visualizations in BMC Helix ITSM.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Cassandra  </li>
+                <br></br>
+                <li>Elastic </li>
+                <br></br>
+                <li>Mongo DB  </li>
+                <br></br>
+                <li>Solr </li>
+                <br></br>
+                </p>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 col-md-6 col-sm-6"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <div className="single-services-item style-two">
+                <div className="icon">
+                  <Image src={multicloud} alt="" />
+                </div>
+                <h5 className="nunito-font">
+                  <a>Programming Languages </a>
+                </h5>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>This feature helps to deliver a flawless service through multi-cloud environments. IT managers work in a flexible and configurable cloud-based multi-service. Using this facet, the IT project team members have effective collaboration with various BMC Helix ITSM Third-Party Vendors for resolving issues.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Java </li>
+                <br></br>
+                <li>JavaScript  </li>
+                <br></br>
+                <li>Python</li>
+                <br></br>
+                <li>R-Programming</li>
+                <br></br>
+                <li>Scala</li>
+                <br></br>
+                
+                
+
+                </p>
               </div>
             </div>
             <div
@@ -369,12 +549,25 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={Knowledge} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>Knowledge Management</a>
+                  <a>Messaging Tools </a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM Third Party Vendor helps you get cohesive, industry-leading knowledge management competencies with smart recommendations. This facilitates bringing the correct information to the end-users and agents for resolving issues in a fast and accurate manner. Integrated knowledge-centered Service enables fast and accurate delivery.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>In addition, you can get lifecycle management of knowledge articles for getting up-to-date information and curation. Besides, there is the availability of robust multi-media content for enhanced support. BMC Helix Knowledge Management solutions also facilitate real-time conversions and circumstantial responses, improving out-of-the-box capabilities.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM Third Party Vendor helps you get cohesive, industry-leading knowledge management competencies with smart recommendations. This facilitates bringing the correct information to the end-users and agents for resolving issues in a fast and accurate manner. Integrated knowledge-centered Service enables fast and accurate delivery.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Akka </li>
+                <br></br>
+                <li>kafka </li>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                
+                </p>
               </div>
             </div>
+            
             <div
               className="col-lg-6 col-md-6 col-sm-6"
               data-aos="fade-up"
@@ -385,10 +578,22 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={helixdigitalworkplace} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>BMC Helix Digital Workplace</a>
+                  <a>Big Data Tools </a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>Contemporary self-service offers spontaneous and intelligent customer experience to enable organizations to step into future work. Intellectual self-service enables employees to fast resolve problems before submitting a request. A cohesive service catalog removes misperception, by presenting services from manifold business units in a single set.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>A customer interface helps employees obtain what they want with a one-stop-shop solution for services. Omni-channel and knowledge management facilitates employees to get the best information, as per their requirements. In addition, easy administration with drag-and-drop allows workflow customization. Furthermore, configuration enhancement enables faster resolution and improved user experience.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>Contemporary self-service offers spontaneous and intelligent customer experience to enable organizations to step into future work. Intellectual self-service enables employees to fast resolve problems before submitting a request. A cohesive service catalog removes misperception, by presenting services from manifold business units in a single set.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Flink  </li>
+                <br></br>
+                <li>Hadoop </li>
+                <br></br>
+                <li>Spark  </li>
+                <br></br>
+                <li>Hadoop YARN </li>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                </p>
               </div>
             </div>
             <div
@@ -401,10 +606,17 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={Assets} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>Management of Assets</a>
+                  <a>AI/ML Techniques </a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM also delivers comprehensive lifecycle management of IT assets, from the stage of procurement to the end of the product lifecycle. This helps to track asset devaluation in the due course of time. Moreover, with BMC Helix Trainings, you can ensure compliance, evading audit costs along with software license management.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Further, it identifies contract violations and buying opportunities. You can know exactly about the number of assets, asset locations, and the people using them. Consequently, you can make informed decisions about IT changes. Moreover, you can make use of remote support and automated configuration functionalities for client systems.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>BMC Helix ITSM also delivers comprehensive lifecycle management of IT assets, from the stage of procurement to the end of the product lifecycle. This helps to track asset devaluation in the due course of time. Moreover, with BMC Helix Trainings, you can ensure compliance, evading audit costs along with software license management.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Statistical Analysis  </li>
+                <br></br>
+                <li>Classification </li>
+                <br></br>
+                <li>Deep Learning  </li>
+                <br></br>
+                </p>
               </div>
             </div>
             <div
@@ -417,10 +629,23 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={Configuration} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>Configuration Management</a>
+                  <a>Cloud Services</a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>This feature of BMC Helix ITSM supports the ITSM process through a single-source reference for all IT infrastructure and services. Moreover, it helps to enhance the user experience with a contemporary, persona-based User Interface. You can boost efficiency and stability with a single source of reference for all IT infrastructure and services.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Further, it decreases costs through automating tasks that earlier required manual interference. IT managers can reduce risk, through an improved understanding of change dependencies and operate services with strong insights into parameters. This allows smooth integration between support and operational processes.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>This feature of BMC Helix ITSM supports the ITSM process through a single-source reference for all IT infrastructure and services. Moreover, it helps to enhance the user experience with a contemporary, persona-based User Interface. You can boost efficiency and stability with a single source of reference for all IT infrastructure and services.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>AWS </li>
+                <br></br>
+                <li>Azure </li>
+                <br></br>
+                <li>Google Cloud </li>
+                <br></br>
+                <li>IBM Cloud   </li>
+                <br></br>
+                <li>Networking </li>
+                <br></br>
+                <li>ML Tools  </li>
+                <br></br>
+                </p>
               </div>
             </div>
             <div
@@ -433,10 +658,37 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
                   <Image src={service} alt="" />
                 </div>
                 <h5 className="nunito-font">
-                  <a>Service Request Management</a>
+                  <a>High-Performance User Interfaces</a>
                 </h5>
-                <p className="w-100" style={{ textAlign: "justify" }}>The service request management feature of BMC Helix Implementation helps you to describe a catalog of service requests. This reflects the services provided to internal and external clients. You can quickly obtain efficiency in the delivery and IT services support. Self-service solutions of BMC Helix ITSM implementation include incidents, modifications, assets, and work orders.</p>
-                <p className="w-100" style={{ textAlign: "justify" }}>Further, it offers a centralized catalog of requests like price, service targets, and approval guidelines to mechanize and monitor standard requests. This allows self-help through knowledge access for decreasing the number of calls to the service desk.</p>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>The service request management feature of BMC Helix Implementation helps you to describe a catalog of service requests. This reflects the services provided to internal and external clients. You can quickly obtain efficiency in the delivery and IT services support. Self-service solutions of BMC Helix ITSM implementation include incidents, modifications, assets, and work orders.</p> */}
+                <p className="w-100" style={{ textAlign: "justify" }}>
+                <li>Angular</li>
+                <br></br>
+                <li>DB</li>
+                <br></br>
+                <li>Vue.js</li>
+                <br></br>
+
+                </p>
+                <br></br>
+              </div>
+              
+              <div className="single-services-item style-two">
+                <div className="icon">
+                  <Image src={service} alt="" />
+                </div>
+                <h5 className="nunito-font">
+                  <a>Authentication & Authorization </a>
+                </h5>
+                {/* <p className="w-100" style={{ textAlign: "justify" }}>The service request management feature of BMC Helix Implementation helps you to describe a catalog of service requests. This reflects the services provided to internal and external clients. You can quickly obtain efficiency in the delivery and IT services support. Self-service solutions of BMC Helix ITSM implementation include incidents, modifications, assets, and work orders.</p> */}
+                <p className="w-200" style={{ textAlign: "justify" }}>
+                <li>KEYLOAK</li>
+                <br></br>
+                <li>Okta </li>
+                <br></br>
+               
+
+                </p>
               </div>
             </div>
             <p className="w-100" style={{ textAlign: "justify" }}>CIOs, Change Managers, IT Operations Managers, as well as Service Desk Managers prefer this predictive, innovative, and intelligent service management for better, faster, accurate, and smarter delivery in a cost-effective way. As per industry research, it is found that organizations obtained significant savings with BMC Helix Vendors, maximizing return on investment.</p>
@@ -472,5 +724,24 @@ We make deploying your workloads easy with DevOps agility. Our DevOps experts pe
     </>
   );
 };
+
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=system-software&populate=*`
+  );
+  const seo = await res.json();
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
+
+
 
 export default Services;

@@ -80,7 +80,7 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-              <MediaImage name="itsm.jpg" data={seo} />
+              <MediaImage name="sales cloud images.jpg" data={seo} />
               </div>
             </div>
           </div>
@@ -604,7 +604,7 @@ export async function getStaticProps({ params }) {
   // Call an external API endpoint to get products.
   // You can use any data fetching library
   const res = await fetch(
-    `${baseApiUrl}/api/pages?filters[slug][$eq]=bmc-helix-itsm&populate=*`
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=salesforce-sales-cloud&populate=*`
   );
   const seo = await res.json();
 

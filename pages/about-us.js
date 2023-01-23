@@ -14,11 +14,14 @@ import salesforce from "@/public/images/icon/salesforce.svg";
 import servicenow from "@/public/images/icon/servicenow.svg";
 import aws from "@/public/images/icon/aws.svg";
 import aboutachive from "@/public/images/about-us.png";
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
 
-const Services = () => {
+const Services = ({ seo }) => {
   return (
     <>
-      <PageTitle page="About Us" />
+      <PageSeo seo={seo} pageName = "About Us" />
       <Navbar />
       <PageTopTitle
         subTitle=""
@@ -338,4 +341,20 @@ const Services = () => {
   );
 };
 
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=about-us&populate=*`
+  );
+  const seo = await res.json();
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 export default Services;
