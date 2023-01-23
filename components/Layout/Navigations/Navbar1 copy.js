@@ -511,7 +511,7 @@ const Navbar5 = () => {
                                       </li>
                                       <li className="nav-item">
                                         <Link
-                                          href="/testing-&-qa"
+                                          href="/testing-qa"
                                           activeClassName="active" >
                                           <a className="nav-link">
                                             Testing & QA
