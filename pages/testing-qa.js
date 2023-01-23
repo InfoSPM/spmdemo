@@ -7,9 +7,7 @@ import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
-import baseApiUrl from "@/utils/baseApiUrl";
-import PageSeo from "../components/Common/PageSeo";
-import MediaImage from "../components/Common/Media";
+
 
 
 
@@ -34,11 +32,12 @@ import dummyicon from "@/public/images/dummy-icon.png";
 
 
 
-const Services = ({ seo }) => {
+
+
+const Services = () => {
   return (
     <>
-    <PageSeo seo={seo} pageName = "Testing And QA " />
-      <Navbar />
+      <PageTitle page="Testing And QA" />
       <PageTopTitle
         subTitle=""
         title="Testing And QA " />
@@ -326,22 +325,6 @@ Our software testing and QA experts don’t let any aspect of your software prod
   );
 };
 
-export async function getStaticProps({ params }) {
-  // console.log(params);
-  // Call an external API endpoint to get products.
-  // You can use any data fetching library
-  const res = await fetch(
-    `${baseApiUrl}/api/pages?filters[slug][$eq]=testing-&-qa&populate=*`
-  );
-  const seo = await res.json();
 
-  // By returning { props: { blog } }, the Blog component
-  // will receive `blog` as a prop at build time
-  return {
-    props: {
-      seo,
-    },
-  };
-}
 
 export default Services;
