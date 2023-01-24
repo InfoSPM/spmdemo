@@ -120,13 +120,10 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-<<<<<<< HEAD
+
               <MediaImage name="about-bmc-helix-remedyforce.jpg" data={seo} />
 
-=======
-                
-              <MediaImage name="about-bmc-helix-remedyforce.jpg" data={seo} />
->>>>>>> c69c47ff48a5eae8bbc44fdc11f72a71b59486bd
+
               </div>
             </div>
           </div>
@@ -359,10 +356,7 @@ export async function getStaticProps({ params }) {
     `${baseApiUrl}/api/pages?filters[slug][$eq]=bmc-helix-remedyforce&populate=*`
   );
   const seo = await res.json();
-<<<<<<< HEAD
 
-=======
->>>>>>> c69c47ff48a5eae8bbc44fdc11f72a71b59486bd
   // By returning { props: { blog } }, the Blog component
   // will receive `blog` as a prop at build time
   return {
