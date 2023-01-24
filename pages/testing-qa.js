@@ -1,14 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-
 import PageTitle from "@/components/Layout/PageTitle";
-import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
 import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
-
-
+import baseApiUrl from "@/utils/baseApiUrl";
+import PageSeo from "../components/Common/PageSeo";
+import MediaImage from "../components/Common/Media";
+import Navbar from "@/components/Layout/Navigations/Navbar1";
 
 
 import shapeImg8 from "@/public/images/shape/shape8.png";
@@ -33,11 +33,11 @@ import dummyicon from "@/public/images/dummy-icon.png";
 
 
 
-
-const Services = () => {
+const Services = ({ seo }) => {
   return (
     <>
-      <PageTitle page="Testing And QA" />
+    <PageSeo seo={seo} pageName = "Testing And QA" />
+    <Navbar />
       <PageTopTitle
         subTitle=""
         title="Testing And QA " />
@@ -68,7 +68,8 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image style-two">
-              <Image src={dummyimg} alt="" />
+              <MediaImage name="Empowering You to Meet Quality Parameters & Standards.jpg" data={seo} />
+
               </div>
             </div>
           </div>
@@ -84,7 +85,8 @@ const Services = () => {
               data-aos-duration="1200"
             >
               <div className="goal-image">
-              <Image src={dummyimg} alt="" />
+              <MediaImage name="Importance of Automated Testing to Ensure Consistent Quality..jpg" data={seo} />
+
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -126,14 +128,14 @@ Our software testing and QA experts don’t let any aspect of your software prod
               <div className="goal-text">
 
                 <ul className="overview-list">
-                  <li data-aos="fade-up" data-aos-duration="1200">
+                  <li data-aos="zoom-in-down" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
                     <h3>Strategizing </h3>
                     <p className="w-100" style={{ textAlign: "justify" }}>Initially, our software testing & QA experts review your project documentation and discuss the scope of work, schedule, and proposed product roadmap with you. Accordingly, we create a testing plan to conduct necessary tests at different stages of your product lifecycle.
                     </p>
                   </li>
                   <li
-                    data-aos="fade-up"
+                    data-aos="zoom-in-down"
                     data-aos-duration="1200"
                     data-aos-delay="200"
                   >
@@ -143,7 +145,7 @@ Our software testing and QA experts don’t let any aspect of your software prod
                     We design test cases based on the software components, modules, integrations, and the performance of the resulting system. If you need, we will suggest and deploy the necessary automated testing stack to accelerate the testing process. 
                     </p>
                   </li>
-                  <li data-aos="fade-up" data-aos-duration="1200">
+                  <li data-aos="zoom-in-down" data-aos-duration="1200">
                     <i className="flaticon-draw-check-mark"></i>
                     <h3>Deployment </h3>
                     <p className="w-100" style={{ textAlign: "justify" }}>
@@ -159,7 +161,7 @@ Our software testing and QA experts don’t let any aspect of your software prod
 
                 <ul className="overview-list">
                   <li
-                    data-aos="fade-up"
+                    data-aos="zoom-in-down"
                     data-aos-duration="1200"
                     data-aos-delay="100"
                   >
@@ -170,7 +172,7 @@ Our software testing and QA experts don’t let any aspect of your software prod
                     </p>
                   </li>
                   <li
-                    data-aos="fade-up"
+                    data-aos="zoom-in-down"
                     data-aos-duration="1200"
                     data-aos-delay="200"
                   >
@@ -208,9 +210,9 @@ Our software testing and QA experts don’t let any aspect of your software prod
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '700px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Functional Testing.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Functional Testing </a>
@@ -224,9 +226,9 @@ Our software testing and QA experts don’t let any aspect of your software prod
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '700px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Sanity Testing.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Sanity Testing </a>
@@ -240,9 +242,9 @@ Our software testing and QA experts don’t let any aspect of your software prod
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '700px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Regression Testing.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Regression Testing </a>
@@ -256,9 +258,9 @@ Our software testing and QA experts don’t let any aspect of your software prod
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '700px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="Integration Testing.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Integration Testing </a>
@@ -272,9 +274,9 @@ Our software testing and QA experts don’t let any aspect of your software prod
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '750px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="System Testing.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>System Testing </a>
@@ -288,9 +290,9 @@ Our software testing and QA experts don’t let any aspect of your software prod
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two"style={{ height: '750px' }}>
                 <div className="icon">
-                <Image src={dummyimg} alt="" />
+                <MediaImage name="User Acceptance Testing.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>User Acceptance Testing </a>
@@ -325,6 +327,23 @@ Our software testing and QA experts don’t let any aspect of your software prod
   );
 };
 
+export async function getStaticProps({ params }) {
+  // console.log(params);
+  // Call an external API endpoint to get products.
+  // You can use any data fetching library
+  const res = await fetch(
+    `${baseApiUrl}/api/pages?filters[slug][$eq]=testing-qa&populate=*`
+  );
+  const seo = await res.json();
+
+  // By returning { props: { blog } }, the Blog component
+  // will receive `blog` as a prop at build time
+  return {
+    props: {
+      seo,
+    },
+  };
+}
 
 
 export default Services;
