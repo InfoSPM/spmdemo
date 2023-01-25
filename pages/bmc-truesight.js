@@ -388,7 +388,7 @@ const Services = ({ seo }) => {
         </div>
       </div>
 
-      <div className="services-area bg-fff4f8 pt-100 pb-75">
+      <div className="services-area bg-fff7f8 pt-100 pb-75">
         <div className="container">
           <div className="section-title">
             <span className="sub-title"></span>
@@ -397,7 +397,7 @@ const Services = ({ seo }) => {
           <div className="row justify-content-center">
             <div
               className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-box" style={{ height: '425px' }}>
@@ -416,7 +416,7 @@ const Services = ({ seo }) => {
             </div>
             <div
               className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-box" style={{ height: '425px' }}>
@@ -436,7 +436,7 @@ const Services = ({ seo }) => {
             </div>
             <div
               className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-box" style={{ height: '425px' }}>
@@ -454,7 +454,7 @@ const Services = ({ seo }) => {
             </div>
             <div
               className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-box" style={{ height: '425px' }}>
@@ -472,7 +472,7 @@ const Services = ({ seo }) => {
             </div>
             <div
               className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-box" style={{ height: '425px' }}>
@@ -490,7 +490,7 @@ const Services = ({ seo }) => {
             </div>
             <div
               className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-box" style={{ height: '425px' }}>
@@ -508,7 +508,7 @@ const Services = ({ seo }) => {
             </div>
             <div
               className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-box" style={{ height: '425px' }}>
@@ -525,7 +525,7 @@ const Services = ({ seo }) => {
             </div>
             <div
               className="col-lg-4 col-md-6 col-sm-6"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-duration="1200"
             >
               <div className="single-services-box" style={{ height: '425px' }}>
