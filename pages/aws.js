@@ -23,6 +23,16 @@ const Services = ({ seo }) => {
       <PageTopTitle
         subTitle=""
         title="AWS" />
+<head>
+<meta name="description" content=" SPM Global Technologies is the world’s leading provider of software development solutions and installation services of cloud-based products, including AWS."/>
+          <meta name="keywords" content=" " />
+          <link rel="canonical" href=" https://www.spmglobaltech.com/aws" />
+          
+          
+        </head>
+       
+
+
 
       <div className="services-area with-top-border pt-100 pb-75">
         <div className="container">
@@ -84,9 +94,9 @@ const Services = ({ seo }) => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '600px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="VR & AR.jpg" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>VR & AR</a>
@@ -101,9 +111,9 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '600px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="VR & AR.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Blockchain</a>
@@ -118,9 +128,9 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '600px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Block Chain.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Developer Tools</a>
@@ -138,9 +148,9 @@ const Services = ({ seo }) => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '600px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Internet of Things.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Internet of Things</a>
@@ -155,9 +165,9 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '600px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Networking and content delivery.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Networking & Content Delivery</a>
@@ -171,9 +181,9 @@ const Services = ({ seo }) => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <div className="single-services-item style-two">
+              <div className="single-services-item style-two" style={{ height: '600px' }}>
                 <div className="icon">
-                  <Image src={dummyicon} alt="" />
+                <MediaImage name="Robotics.png" data={seo} />
                 </div>
                 <h5 className="nunito-font">
                   <a>Robotics</a>
